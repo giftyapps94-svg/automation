@@ -1,0 +1,3786 @@
+[
+  {
+    "themeId": 154305298615,
+    "themeName": "Abode",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/abode/presets/abode",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div.cart-notification__wrapper div.cart-notification__links form#cart"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div[id^=\"cart-\"] cart-notification-item[id^=\"CartItem-\"] div.cart-notification-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-abode/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-abode/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T10:57:26.563Z"
+  },
+  {
+    "themeId": 154305331383,
+    "themeName": "Bramble",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/abode/presets/bramble",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div.cart-notification__wrapper div.cart-notification__links form#cart"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div[id^=\"cart-\"] cart-notification-item[id^=\"CartItem-\"] div.cart-notification-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-bramble/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-bramble/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T10:59:15.510Z"
+  },
+  {
+    "themeId": 154305364151,
+    "themeName": "Gifter",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/abode/presets/gifter",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div.cart-notification__wrapper div.cart-notification__links form#cart"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div[id^=\"cart-\"] cart-notification-item[id^=\"CartItem-\"] div.cart-notification-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-gifter/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-gifter/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:01:01.144Z"
+  },
+  {
+    "themeId": 154305396919,
+    "themeName": "Javelin",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/abode/presets/javelin",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div.cart-notification__wrapper div.cart-notification__links form#cart"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div[id^=\"cart-\"] cart-notification-item[id^=\"CartItem-\"] div.cart-notification-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-javelin/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-javelin/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:03:04.350Z"
+  },
+  {
+    "themeId": 154305462455,
+    "themeName": "Velora",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/abode/presets/velora",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div.cart-notification__wrapper div.cart-notification__links form#cart"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "div[id^=\"cart-\"] div[id^=\"cart-\"] cart-notification-item[id^=\"CartItem-\"] div.cart-notification-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-velora/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/abode-velora/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:05:21.915Z"
+  },
+  {
+    "themeId": 154305724599,
+    "themeName": "Ace",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/ace",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-ace/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-ace/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:15:58.055Z"
+  },
+  {
+    "themeId": 154305822903,
+    "themeName": "Adorn",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/adorn",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-adorn/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-adorn/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:17:57.955Z"
+  },
+  {
+    "themeId": 154305888439,
+    "themeName": "Choice",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/choice",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-choice/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-choice/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:20:07.092Z"
+  },
+  {
+    "themeId": 154305921207,
+    "themeName": "Closet",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/closet",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-closet/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-closet/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:22:31.415Z"
+  },
+  {
+    "themeId": 154305986743,
+    "themeName": "Precious",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/precious",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-precious/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-precious/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:24:29.571Z"
+  },
+  {
+    "themeId": 154306019511,
+    "themeName": "Basics",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aesthetic/presets/basics",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-basics/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-basics/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:27:01.088Z"
+  },
+  {
+    "themeId": 154306117815,
+    "themeName": "Formula",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aesthetic/presets/formula",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-formula/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-formula/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:28:46.587Z"
+  },
+  {
+    "themeId": 154306150583,
+    "themeName": "Love",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aesthetic/presets/love",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-love/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-love/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:30:57.687Z"
+  },
+  {
+    "themeId": 154306216119,
+    "themeName": "Palette",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aesthetic/presets/palette",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-palette/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aesthetic-palette/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:32:41.538Z"
+  },
+  {
+    "themeId": 154306248887,
+    "themeName": "Agile",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agile/presets/agile",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-items div.main-cart",
+        "cartDrawerSelector": "section#shopify-section-cart-drawer cart-drawer[data-focus-item] div#CartDrawer div.cart__ctas"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items form#cart div[id^=\"CartItem-\"] div.cart-item-info",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-agile/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-agile/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:34:30.112Z"
+  },
+  {
+    "themeId": 154306281655,
+    "themeName": "Glina",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agile/presets/glina",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-items div.main-cart",
+        "cartDrawerSelector": "section#shopify-section-cart-drawer cart-drawer[data-focus-item] div#CartDrawer div.cart__ctas"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items form#cart div[id^=\"CartItem-\"] div.cart-item-info",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-glina/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-glina/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:36:36.724Z"
+  },
+  {
+    "themeId": 154306314423,
+    "themeName": "Merza",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agile/presets/merza",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-items div.main-cart",
+        "cartDrawerSelector": "section#shopify-section-cart-drawer cart-drawer[data-focus-item] div#CartDrawer div.cart__ctas"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items form#cart div[id^=\"CartItem-\"] div.cart-item-info",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-merza/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-merza/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:38:40.537Z"
+  },
+  {
+    "themeId": 154306379959,
+    "themeName": "Serums",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agile/presets/serums",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-items div.main-cart",
+        "cartDrawerSelector": "section#shopify-section-cart-drawer cart-drawer[data-focus-item] div#CartDrawer div.cart__ctas"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items form#cart div[id^=\"CartItem-\"] div.cart-item-info",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-serums/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-serums/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:40:26.885Z"
+  },
+  {
+    "themeId": 154306478263,
+    "themeName": "Agnes",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agnes/presets/agnes",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-agnes/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-agnes/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:42:16.639Z"
+  },
+  {
+    "themeId": 154306543799,
+    "themeName": "Seoul",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agnes/presets/seoul",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-seoul/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-seoul/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:44:49.175Z"
+  },
+  {
+    "themeId": 154306674871,
+    "themeName": "Tyche",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agnes/presets/tyche",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-tyche/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agnes-tyche/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:46:47.558Z"
+  },
+  {
+    "themeId": 154306740407,
+    "themeName": "Aisle",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aisle/presets/aisle",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div.items-center div.lg\\:max-w-unset",
+        "cartDrawerSelector": "section[id^=\"shopify-section-template--\"] product-feed[data-section-name] cart-dynamic[data-section-id] div.link-underline"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] cart-dynamic[data-section-id] div.border-outline\\/10 div.items-center div.w-full",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:48:26.756Z"
+  },
+  {
+    "themeId": 154306773175,
+    "themeName": "Alchemy",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/alchemy/presets/alchemy",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart div#cart-summary div.md\\:text-end",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer footer.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart cart-items#cart-items tr[id^=\"cart-item-\"]",
+        "cartDrawerSelector": "cart-drawer#cart-drawer form#cart-drawer-form cart-items#cart-items tr[id^=\"cart-item-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-alchemy/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-alchemy/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:52:22.056Z"
+  },
+  {
+    "themeId": 154306871479,
+    "themeName": "Splice",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/alchemy/presets/splice",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart div#cart-summary div.md\\:text-end",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer footer.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart cart-items#cart-items tr[id^=\"cart-item-\"]",
+        "cartDrawerSelector": "cart-drawer#cart-drawer form#cart-drawer-form cart-items#cart-items tr[id^=\"cart-item-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-splice/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-splice/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:54:10.696Z"
+  },
+  {
+    "themeId": 154306969783,
+    "themeName": "Weave",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/alchemy/presets/weave",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart div#cart-summary div.md\\:text-end",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer footer.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart cart-items#cart-items tr[id^=\"cart-item-\"]",
+        "cartDrawerSelector": "cart-drawer#cart-drawer form#cart-drawer-form cart-items#cart-items tr[id^=\"cart-item-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-weave/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/alchemy-weave/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:56:04.374Z"
+  },
+  {
+    "themeId": 154307035319,
+    "themeName": "Align",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/align/presets/align",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart sticky-engine[data-sticky-engine-offset-animated] div.cart-summary__meta",
+        "cartDrawerSelector": "drawer-component.mini-cart form.mini-cart__sidebar div.mini-cart__footer div.cart-summary__meta"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#main-content section[id^=\"shopify-section-template--\"] form#cart div[data-variant-id]",
+        "cartDrawerSelector": "form.mini-cart__sidebar div.mini-cart__content div.cart-items-container div[data-variant-id]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-align/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-align/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T11:59:04.122Z"
+  },
+  {
+    "themeId": null,
+    "themeName": "Playroom",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/align/presets/playroom",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-playroom/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-playroom/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:05:50.561Z"
+  },
+  {
+    "themeId": 154307395767,
+    "themeName": "Allure",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/allure/presets/allure",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-template__total",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#cart-drawer-main-content form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item-drawer__header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-allure/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-allure/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:14:10.888Z"
+  },
+  {
+    "themeId": 154307428535,
+    "themeName": "Bijou",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/allure/presets/bijou",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-template__total",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#cart-drawer-main-content form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item-drawer__header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-bijou/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-bijou/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:16:57.821Z"
+  },
+  {
+    "themeId": 154307526839,
+    "themeName": "Pristine",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/allure/presets/pristine",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-template__total",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#cart-drawer-main-content form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item-drawer__header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-pristine/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-pristine/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:19:03.461Z"
+  },
+  {
+    "themeId": 154307559607,
+    "themeName": "Stitch",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/allure/presets/stitch",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-template__total",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#cart-drawer-main-content form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item-drawer__header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-stitch/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/allure-stitch/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:20:45.725Z"
+  },
+  {
+    "themeId": 154307657911,
+    "themeName": "Amber",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/amber/presets/amber",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div#cart-summary div.cart-summary__content",
+        "cartDrawerSelector": "div#CartDrawer-Summary form#CartDrawer-FormSummary div#cart-summary div.cart-summary__content"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartItem-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/amber-amber/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/amber-amber/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:23:22.884Z"
+  },
+  {
+    "themeId": 154307723447,
+    "themeName": "Rascals",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/amber/presets/rascals",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div#cart-summary div.cart-summary__content",
+        "cartDrawerSelector": "div#CartDrawer-Summary form#CartDrawer-FormSummary div#cart-summary div.cart-summary__content"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartItem-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/amber-rascals/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/amber-rascals/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:25:04.340Z"
+  },
+  {
+    "themeId": 154307788983,
+    "themeName": "Andaman",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/andaman/presets/andaman",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "barracuda-main#page-content div[id^=\"shopify-section-template--\"] form#cart div.narrow-section",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div#cart form#cart div.narrow-section"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description",
+        "cartDrawerSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-andaman/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-andaman/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:26:47.126Z"
+  },
+  {
+    "themeId": 154307854519,
+    "themeName": "Bakery",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/andaman/presets/bakery",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "barracuda-main#page-content div[id^=\"shopify-section-template--\"] form#cart div.narrow-section",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div#cart form#cart div.narrow-section"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description",
+        "cartDrawerSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-bakery/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-bakery/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:28:43.762Z"
+  },
+  {
+    "themeId": 154307887287,
+    "themeName": "Ramen",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/andaman/presets/ramen",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "barracuda-main#page-content div[id^=\"shopify-section-template--\"] form#cart div.narrow-section",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div#cart form#cart div.narrow-section"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description",
+        "cartDrawerSelector": "form#cart div#main-cart-items div[id^=\"cart-line-\"] div.cart-item-line-description"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-ramen/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/andaman-ramen/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:30:40.951Z"
+  },
+  {
+    "themeId": 154307952823,
+    "themeName": "Area",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/area/presets/area",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer__content__container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__footer-footer div.cart__footer__information"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartItem-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.drawer__cart-item__details__items"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-area/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-area/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:33:00.494Z"
+  },
+  {
+    "themeId": 154307985591,
+    "themeName": "Flavor",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/area/presets/flavor",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer__content__container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__footer-footer div.cart__footer__information"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartItem-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.drawer__cart-item__details__items"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-flavor/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-flavor/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:35:07.597Z"
+  },
+  {
+    "themeId": 154308018359,
+    "themeName": "Medicines",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/area/presets/medicines",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer__content__container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__footer-footer div.cart__footer__information"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartItem-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.drawer__cart-item__details__items"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-medicines/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-medicines/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:37:16.162Z"
+  },
+  {
+    "themeId": 154307166391,
+    "themeName": "Darkroom",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/align/presets/darkroom",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart sticky-engine[data-sticky-engine-offset-animated] div.cart-summary__meta",
+        "cartDrawerSelector": "drawer-component.mini-cart form.mini-cart__sidebar div.mini-cart__footer div.cart-summary__meta"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#main-content section[id^=\"shopify-section-template--\"] form#cart div[data-variant-id]",
+        "cartDrawerSelector": "form.mini-cart__sidebar div.mini-cart__content div.cart-items-container div[data-variant-id]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-darkroom/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-darkroom/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:46:31.302Z"
+  },
+  {
+    "themeId": 154308313271,
+    "themeName": "Verdant",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/align/presets/verdant",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart sticky-engine[data-sticky-engine-offset-animated] div.cart-summary__meta",
+        "cartDrawerSelector": "drawer-component.mini-cart form.mini-cart__sidebar div.mini-cart__footer div.cart-summary__meta"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#main-content section[id^=\"shopify-section-template--\"] form#cart div[data-variant-id]",
+        "cartDrawerSelector": "form.mini-cart__sidebar div.mini-cart__content div.cart-items-container div[data-variant-id]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-verdant/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/align-verdant/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:48:43.088Z"
+  },
+  {
+    "themeId": 154308051127,
+    "themeName": "Technical",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/area/presets/technical",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer__content__container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__footer-footer div.cart__footer__information"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartItem-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.drawer__cart-item__details__items"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-technical/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-technical/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:51:29.413Z"
+  },
+  {
+    "themeId": 154308444343,
+    "themeName": "Winery",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/area/presets/winery",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer__content__container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__footer-footer div.cart__footer__information"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartItem-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.drawer__cart-item__details__items"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-winery/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/area-winery/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:53:37.649Z"
+  },
+  {
+    "themeId": 154308608183,
+    "themeName": "Aeroform",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascension/presets/aeroform",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form div.thb-cart-form--cart-collaterals",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.cart-drawer--footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.product-card-small--info-in-cart"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-aeroform/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-aeroform/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:55:19.259Z"
+  },
+  {
+    "themeId": 154308739255,
+    "themeName": "Ascension",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascension/presets/ascension",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form div.thb-cart-form--cart-collaterals",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.cart-drawer--footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.product-card-small--info-in-cart"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-ascension/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-ascension/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:57:06.951Z"
+  },
+  {
+    "themeId": 154308804791,
+    "themeName": "Opus",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascension/presets/opus",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form div.thb-cart-form--cart-collaterals",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.cart-drawer--footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] theme-cart#Cart form#cart-form tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div#wrapper div#shopify-section-cart-drawer cart-drawer#Cart-Drawer div.product-card-small--info-in-cart"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-opus/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascension-opus/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T12:58:54.305Z"
+  },
+  {
+    "themeId": 154308870327,
+    "themeName": "Ascent",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascent/presets/ascent",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#Main-Cart div#Main-Cart-Details div.cart-details-footer",
+        "cartDrawerSelector": "cart-drawer#Cart-Drawer div[data-trap] div#Cart-Drawer-Details div.cart-details-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form[id^=\"Cart-Form-template--\"] div[id^=\"Cart-Items-template--\"] tr[id^=\"Cart-Item-template--\"] td.cart-item-details",
+        "cartDrawerSelector": "form[id^=\"Cart-Form-sections--\"] div[id^=\"Cart-Items-sections--\"] tr[id^=\"Cart-Item-sections--\"] td.cart-item-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-ascent/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-ascent/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:00:39.931Z"
+  },
+  {
+    "themeId": 154308903095,
+    "themeName": "Elevated",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascent/presets/elevated",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#Main-Cart div#Main-Cart-Details div.cart-details-footer",
+        "cartDrawerSelector": "cart-drawer#Cart-Drawer div[data-trap] div#Cart-Drawer-Details div.cart-details-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form[id^=\"Cart-Form-template--\"] div[id^=\"Cart-Items-template--\"] tr[id^=\"Cart-Item-template--\"] td.cart-item-details",
+        "cartDrawerSelector": "form[id^=\"Cart-Form-sections--\"] div[id^=\"Cart-Items-sections--\"] tr[id^=\"Cart-Item-sections--\"] td.cart-item-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-elevated/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-elevated/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:02:24.768Z"
+  },
+  {
+    "themeId": 154308935863,
+    "themeName": "Joyfy",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascent/presets/joyfy",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#Main-Cart div#Main-Cart-Details div.cart-details-footer",
+        "cartDrawerSelector": "cart-drawer#Cart-Drawer div[data-trap] div#Cart-Drawer-Details div.cart-details-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form[id^=\"Cart-Form-template--\"] div[id^=\"Cart-Items-template--\"] tr[id^=\"Cart-Item-template--\"] td.cart-item-details",
+        "cartDrawerSelector": "form[id^=\"Cart-Form-sections--\"] div[id^=\"Cart-Items-sections--\"] tr[id^=\"Cart-Item-sections--\"] td.cart-item-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-joyfy/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-joyfy/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:04:12.696Z"
+  },
+  {
+    "themeId": 154309034167,
+    "themeName": "Snout",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/ascent/presets/snout",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#Main-Cart div#Main-Cart-Details div.cart-details-footer",
+        "cartDrawerSelector": "cart-drawer#Cart-Drawer div[data-trap] div#Cart-Drawer-Details div.cart-details-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form[id^=\"Cart-Form-template--\"] div[id^=\"Cart-Items-template--\"] tr[id^=\"Cart-Item-template--\"] td.cart-item-details",
+        "cartDrawerSelector": "form[id^=\"Cart-Form-sections--\"] div[id^=\"Cart-Items-sections--\"] tr[id^=\"Cart-Item-sections--\"] td.cart-item-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-snout/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/ascent-snout/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:06:18.318Z"
+  },
+  {
+    "themeId": 154309066935,
+    "themeName": "Atelier",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atelier/presets/atelier",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] cart-items-component[data-section-id] div.cart-summary__inner",
+        "cartDrawerSelector": "theme-drawer#cart-drawer div[data-hydration-key] cart-items-component[data-drawer] div.cart-drawer__summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items-component[data-section-id] form#cart-form tr[id^=\"CartItem-\"] td.cart-primary-typography",
+        "cartDrawerSelector": "cart-items-component[data-drawer] form#cart-form tr[id^=\"CartItem-\"] td.cart-primary-typography"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atelier-atelier/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atelier-atelier/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:08:21.048Z"
+  },
+  {
+    "themeId": 154309132471,
+    "themeName": "Apex",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athens/presets/apex",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart-blocks",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item-details",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-apex/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-apex/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:11:30.518Z"
+  },
+  {
+    "themeId": 154309198007,
+    "themeName": "Athens",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athens/presets/athens",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart-blocks",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item-details",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-athens/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-athens/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:14:45.376Z"
+  },
+  {
+    "themeId": 154309329079,
+    "themeName": "Pharm",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athens/presets/pharm",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart-blocks",
+        "cartDrawerSelector": "mini-cart[data-event-context] drawer-modal[data-event-prefix] div#header-mini-cart-footer div.mini-cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item-details",
+        "cartDrawerSelector": "drawer-modal[data-event-prefix] div#header-mini-cart-content div[data-variant-id] div.mini-cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-pharm/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-pharm/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:16:47.432Z"
+  },
+  {
+    "themeId": 154309394615,
+    "themeName": "Spoke",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athens/presets/spoke",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart-blocks",
+        "cartDrawerSelector": "mini-cart[data-event-context] drawer-modal[data-event-prefix] div#header-mini-cart-footer div.mini-cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item-details",
+        "cartDrawerSelector": "drawer-modal[data-event-prefix] div#header-mini-cart-content div[data-variant-id] div.mini-cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-spoke/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-spoke/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:19:21.659Z"
+  },
+  {
+    "themeId": 154309427383,
+    "themeName": "Athora",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athora/presets/athora",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] main-cart#MainCart div.hdt-cart__blocks",
+        "cartDrawerSelector": "section[id^=\"shopify-section-sections--\"] cart-drawer[data-count] dialog#CartDrawer div.hdt-cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.hdt-main-cart-item__content",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.hdt-cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-athora/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-athora/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:21:20.926Z"
+  },
+  {
+    "themeId": 154309460151,
+    "themeName": "Evon",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athora/presets/evon",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] main-cart#MainCart div.hdt-cart__blocks",
+        "cartDrawerSelector": "section[id^=\"shopify-section-sections--\"] cart-drawer[data-count] dialog#CartDrawer div.hdt-cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.hdt-main-cart-item__content",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.hdt-cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-evon/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-evon/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:23:06.287Z"
+  },
+  {
+    "themeId": 154309525687,
+    "themeName": "Planti",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athora/presets/planti",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] main-cart#MainCart div.hdt-cart__blocks",
+        "cartDrawerSelector": "section[id^=\"shopify-section-sections--\"] cart-drawer[data-count] dialog#CartDrawer div.hdt-cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.hdt-main-cart-item__content",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.hdt-cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-planti/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-planti/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:25:25.948Z"
+  },
+  {
+    "themeId": 154309591223,
+    "themeName": "Quantum",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athora/presets/quantum",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] main-cart#MainCart div.hdt-cart__blocks",
+        "cartDrawerSelector": "section[id^=\"shopify-section-sections--\"] cart-drawer[data-count] dialog#CartDrawer div.hdt-cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.hdt-main-cart-item__content",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.hdt-cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-quantum/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athora-quantum/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:27:14.201Z"
+  },
+  {
+    "themeId": 154309722295,
+    "themeName": "Atlantic",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlantic/presets/atlantic",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form[data-cart-form] div.cart-tools div.totals",
+        "cartDrawerSelector": "div[data-sidebar-drawer-container] div[data-sidebar-drawer] div[data-sidebar-drawer-content] div[data-cart-mini-footer]"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-sidebar-drawer-content] div[data-cart-mini-content] div[data-cart-mini-item] div.cart-mini-item-column-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-atlantic/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-atlantic/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:29:04.723Z"
+  },
+  {
+    "themeId": 154309755063,
+    "themeName": "Cotton",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlantic/presets/cotton",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form[data-cart-form] div.cart-tools div.totals",
+        "cartDrawerSelector": "div[data-sidebar-drawer-container] div[data-sidebar-drawer] div[data-sidebar-drawer-content] div[data-cart-mini-footer]"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-sidebar-drawer-content] div[data-cart-mini-content] div[data-cart-mini-item] div.cart-mini-item-column-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-cotton/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-cotton/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:31:18.467Z"
+  },
+  {
+    "themeId": 154309853367,
+    "themeName": "Parfum",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlantic/presets/parfum",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form[data-cart-form] div.cart-tools div.totals",
+        "cartDrawerSelector": "div[data-sidebar-drawer-container] div[data-sidebar-drawer] div[data-sidebar-drawer-content] div[data-cart-mini-footer]"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-sidebar-drawer-content] div[data-cart-mini-content] div[data-cart-mini-item] div.cart-mini-item-column-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-parfum/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-parfum/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:33:13.164Z"
+  },
+  {
+    "themeId": 154309951671,
+    "themeName": "Plush",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlantic/presets/plush",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form[data-cart-form] div.cart-tools div.totals",
+        "cartDrawerSelector": "div[data-sidebar-drawer-container] div[data-sidebar-drawer] div[data-sidebar-drawer-content] div[data-cart-mini-footer]"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-sidebar-drawer-content] div[data-cart-mini-content] div[data-cart-mini-item] div.cart-mini-item-column-details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-plush/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlantic-plush/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:34:57.818Z"
+  },
+  {
+    "themeId": 154309984439,
+    "themeName": "Atlas",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlas/presets/atlas",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] cart-section[data-empty] div[data-section-ref]",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#Modal-CartDrawer div.cart-drawer__content div.cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] cart-section[data-empty] table[data-section-ref] div.cart-table-product__details",
+        "cartDrawerSelector": "form[data-drag-close-container] div[data-section-ref] div[data-content] div.cart-drawer-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlas-atlas/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlas-atlas/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:37:01.782Z"
+  },
+  {
+    "themeId": 154310049975,
+    "themeName": "Frisk",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atlas/presets/frisk",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] cart-section[data-empty] div[data-section-ref]",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#Modal-CartDrawer div.cart-drawer__content div.cart-drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] cart-section[data-empty] table[data-section-ref] div.cart-table-product__details",
+        "cartDrawerSelector": "form[data-drag-close-container] div[data-section-ref] div[data-content] div.cart-drawer-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlas-frisk/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atlas-frisk/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:39:13.999Z"
+  },
+  {
+    "themeId": 154310082743,
+    "themeName": "Atom",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atom/presets/atom",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div.js-mini-cart-contents div#mini-cart form"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-atom/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-atom/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:41:19.840Z"
+  },
+  {
+    "themeId": 154310115511,
+    "themeName": "Hydrate",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atom/presets/hydrate",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div.js-mini-cart-contents div#mini-cart form"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-hydrate/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-hydrate/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:43:01.755Z"
+  },
+  {
+    "themeId": 154310148279,
+    "themeName": "Navigator",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/atom/presets/navigator",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div.js-mini-cart-contents div#mini-cart form"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-navigator/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/atom-navigator/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:44:39.882Z"
+  },
+  {
+    "themeId": 154310213815,
+    "themeName": "Astra",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aurora/presets/astra",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] cart-page#CartPage div.cart__block--on-side-subtotal",
+        "cartDrawerSelector": "cart-drawer#CartDrawer div[data-sidebar-body] div[data-swipe-area] div.cart-drawer-subtotal__main-content"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-page#CartPage cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info",
+        "cartDrawerSelector": "div[data-cart-drawer-results] cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-astra/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-astra/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:46:20.902Z"
+  },
+  {
+    "themeId": 154310344887,
+    "themeName": "Auriga",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aurora/presets/auriga",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] cart-page#CartPage div.cart-subtotal__main-content--solid",
+        "cartDrawerSelector": "cart-drawer#CartDrawer div[data-sidebar-body] div[data-swipe-area] div.cart-drawer-subtotal__main-content"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-page#CartPage cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info",
+        "cartDrawerSelector": "div[data-cart-drawer-results] cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-auriga/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-auriga/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:48:05.462Z"
+  },
+  {
+    "themeId": 154310541495,
+    "themeName": "Aurora",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aurora/presets/aurora",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] cart-page#CartPage div.cart-subtotal__main-content--solid",
+        "cartDrawerSelector": "cart-drawer#CartDrawer div[data-sidebar-body] div[data-swipe-area] div.cart-drawer-subtotal__main-content"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-page#CartPage cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info",
+        "cartDrawerSelector": "div[data-cart-drawer-results] cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-aurora/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-aurora/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:49:47.938Z"
+  },
+  {
+    "themeId": 154310574263,
+    "themeName": "Stella",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aurora/presets/stella",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] cart-page#CartPage div.cart-subtotal__main-content--outline",
+        "cartDrawerSelector": "cart-drawer#CartDrawer div[data-sidebar-body] div[data-swipe-area] div.cart-drawer-subtotal__main-content"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-page#CartPage cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info",
+        "cartDrawerSelector": "div[data-cart-drawer-results] cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-stella/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-stella/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:51:28.323Z"
+  },
+  {
+    "themeId": 154310607031,
+    "themeName": "Vega",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aurora/presets/vega",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] cart-page#CartPage div.cart-subtotal__main-content--solid",
+        "cartDrawerSelector": "cart-drawer#CartDrawer div[data-sidebar-body] div[data-swipe-area] div.cart-drawer-subtotal__main-content"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-page#CartPage cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info",
+        "cartDrawerSelector": "div[data-cart-drawer-results] cart-item[id^=\"CartItem-\"] div[data-cart-item-body] div.cart-item__pay-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-vega/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aurora-vega/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:53:07.082Z"
+  },
+  {
+    "themeId": 154310672567,
+    "themeName": "Adelle",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avante/presets/adelle",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] shopify-section#main-cart div.cart-page__block--price div.cart-page__block-container",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart-item__first-row",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-adelle/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-adelle/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:54:55.273Z"
+  },
+  {
+    "themeId": 154310770871,
+    "themeName": "Ariste",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avante/presets/ariste",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] shopify-section#main-cart div.cart-page__block--price div.cart-page__block-container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart-item__first-row",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] div.cart-item__first-row"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-ariste/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-ariste/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:56:51.422Z"
+  },
+  {
+    "themeId": 154310869175,
+    "themeName": "Avante",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avante/presets/avante",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] shopify-section#main-cart div.cart-page__block--price div.cart-page__block-container",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart-item__first-row",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-avante/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-avante/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T13:59:20.227Z"
+  },
+  {
+    "themeId": 154311000247,
+    "themeName": "Bloop",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avante/presets/bloop",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] shopify-section#main-cart div.cart-page__block--price div.cart-page__block-container",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart-item__first-row",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] div.cart-item__first-row"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-bloop/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-bloop/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:01:19.518Z"
+  },
+  {
+    "themeId": 154311033015,
+    "themeName": "Vortex",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avante/presets/vortex",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] shopify-section#main-cart div.cart-page__block--price div.cart-page__block-container",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart-item__first-row",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-vortex/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avante-vortex/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:03:54.780Z"
+  },
+  {
+    "themeId": 154311098551,
+    "themeName": "Avenue",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avenue/presets/avenue",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[data-section-id] div#cart-table form#cart div.table-center",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-avenue/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-avenue/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:06:00.887Z"
+  },
+  {
+    "themeId": 154311131319,
+    "themeName": "Pike",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avenue/presets/pike",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[data-section-id] div#cart-table form#cart div.table-center",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-pike/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-pike/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:08:06.823Z"
+  },
+  {
+    "themeId": 154311196855,
+    "themeName": "Trail",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/avenue/presets/trail",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[data-section-id] div#cart-table form#cart div.table-center",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-trail/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/avenue-trail/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:10:12.008Z"
+  },
+  {
+    "themeId": 154311229623,
+    "themeName": "Anysound",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/azzel/presets/anysound",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-recommendations-url] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-anysound/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-anysound/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:11:55.657Z"
+  },
+  {
+    "themeId": 154311295159,
+    "themeName": "Audion",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/azzel/presets/audion",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-recommendations-url] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-audion/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-audion/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:13:39.250Z"
+  },
+  {
+    "themeId": 154311360695,
+    "themeName": "Azzel",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/azzel/presets/azzel",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-recommendations-url] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-azzel/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-azzel/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:15:21.935Z"
+  },
+  {
+    "themeId": 154311393463,
+    "themeName": "Docket",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/azzel/presets/docket",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-recommendations-url] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-docket/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/azzel-docket/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:17:03.049Z"
+  },
+  {
+    "themeId": 154311426231,
+    "themeName": "Banjo",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/banjo/presets/banjo",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer section-cart-drawer#CartDrawer form.Form--cart div.Drawer__Footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] section-cart[data-section-id] form[data-cart-currency-symbol] div.CartItem__Info",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer section-cart-drawer#CartDrawer div.CartItem div.CartItem__Info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/banjo-banjo/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/banjo-banjo/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:19:09.058Z"
+  },
+  {
+    "themeId": 154311491767,
+    "themeName": "Barcelona",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/barcelona/presets/barcelona",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-barcelona/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-barcelona/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:21:17.807Z"
+  },
+  {
+    "themeId": 154311557303,
+    "themeName": "Beats",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/barcelona/presets/beats",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-beats/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-beats/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:23:02.938Z"
+  },
+  {
+    "themeId": 154311622839,
+    "themeName": "Cashmere",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/barcelona/presets/cashmere",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-cashmere/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-cashmere/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:24:51.825Z"
+  },
+  {
+    "themeId": 154311721143,
+    "themeName": "Loom",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/barcelona/presets/loom",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer[data-source] div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-header"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-loom/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/barcelona-loom/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:27:09.781Z"
+  },
+  {
+    "themeId": 154311786679,
+    "themeName": "Baseline",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/baseline/presets/baseline",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] section#main-cart-footer data-island[data-cart-footer] div.md\\:col-start-8",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-cart-drawer] data-island[data-cart-footer] div.text-center"
+      },
+      "productLevelGift": {
+        "cartSelector": "section#main-cart-items data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div[data-cart-drawer] data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-baseline/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-baseline/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:29:47.632Z"
+  },
+  {
+    "themeId": 154311917751,
+    "themeName": "Brutalist",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/baseline/presets/brutalist",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] section#main-cart-footer data-island[data-cart-footer] div.md\\:col-start-8",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-cart-drawer] data-island[data-cart-footer] div.text-center"
+      },
+      "productLevelGift": {
+        "cartSelector": "section#main-cart-items data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div[data-cart-drawer] data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-brutalist/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-brutalist/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:31:58.812Z"
+  },
+  {
+    "themeId": 154311950519,
+    "themeName": "Courier",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/baseline/presets/courier",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] section#main-cart-footer data-island[data-cart-footer] div.md\\:col-start-8",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-cart-drawer] data-island[data-cart-footer] div.text-center"
+      },
+      "productLevelGift": {
+        "cartSelector": "section#main-cart-items data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div[data-cart-drawer] data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-courier/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-courier/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:33:48.357Z"
+  },
+  {
+    "themeId": 154312016055,
+    "themeName": "Press",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/baseline/presets/press",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] section#main-cart-footer data-island[data-cart-footer] div.md\\:col-start-8",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-cart-drawer] data-island[data-cart-footer] div.text-center"
+      },
+      "productLevelGift": {
+        "cartSelector": "section#main-cart-items data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "div[data-cart-drawer] data-island[data-cart-items] form#cart li[id^=\"CartItem-\"]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-press/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/baseline-press/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:35:37.844Z"
+  },
+  {
+    "themeId": 154312114359,
+    "themeName": "Be Yours",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/be-yours/presets/be-yours",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "cart-items[data-cart-level-discounts] ul[data-animate] li[data-variant-id] div.product-content"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-be-yours/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-be-yours/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:37:24.897Z"
+  },
+  {
+    "themeId": 154312212663,
+    "themeName": "Harmony",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/be-yours/presets/harmony",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "mini-cart#mini-cart form#cart div[data-animate] div.button-container"
+      },
+      "productLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "cart-items[data-cart-level-discounts] ul[data-animate] li[data-variant-id] div.product-content"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-harmony/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-harmony/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:39:12.872Z"
+  },
+  {
+    "themeId": 154312343735,
+    "themeName": "Peace",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/be-yours/presets/peace",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "mini-cart#mini-cart form#cart div[data-animate] div.button-container"
+      },
+      "productLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "cart-items[data-cart-level-discounts] ul[data-animate] li[data-variant-id] div.product-content"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-peace/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-peace/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:41:01.894Z"
+  },
+  {
+    "themeId": 154312376503,
+    "themeName": "Sheen",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/be-yours/presets/sheen",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "mini-cart#mini-cart form#cart div[data-animate] div.button-container"
+      },
+      "productLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": "cart-items[data-cart-level-discounts] ul[data-animate] li[data-variant-id] div.product-content"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-sheen/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/be-yours-sheen/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:42:48.859Z"
+  },
+  {
+    "themeId": 154312442039,
+    "themeName": "Beautify",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/beautify/presets/beautify",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-cc-animate] div[data-cart-component] form#cart div#cart-summary",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer footer.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart cart-items#cart-items div[id^=\"cart-item-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#cart-drawer-form cart-items#cart-items div[id^=\"cart-item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beautify-beautify/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beautify-beautify/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:44:32.684Z"
+  },
+  {
+    "themeId": 154312540343,
+    "themeName": "Cherish",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/beautify/presets/cherish",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-cc-animate] div[data-cart-component] form#cart div#cart-summary",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer footer.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart cart-items#cart-items div[id^=\"cart-item-\"] div.cart-item__details",
+        "cartDrawerSelector": "form#cart-drawer-form cart-items#cart-items div[id^=\"cart-item-\"] div.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beautify-cherish/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beautify-cherish/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:46:19.311Z"
+  },
+  {
+    "themeId": 154312671415,
+    "themeName": "Adrenaline",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/berlin/presets/adrenaline",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] div#section-cart__content div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-adrenaline/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-adrenaline/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:48:20.448Z"
+  },
+  {
+    "themeId": 154312736951,
+    "themeName": "Berlin",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/berlin/presets/berlin",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] div#section-cart__content div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-berlin/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-berlin/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:50:20.357Z"
+  },
+  {
+    "themeId": 154312802487,
+    "themeName": "Fade",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/berlin/presets/fade",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] div#section-cart__content div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-fade/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-fade/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:52:24.709Z"
+  },
+  {
+    "themeId": 154312900791,
+    "themeName": "Polarized",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/berlin/presets/polarized",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] div#section-cart__content div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-polarized/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-polarized/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:54:37.634Z"
+  },
+  {
+    "themeId": 154312966327,
+    "themeName": "Stereo",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/berlin/presets/stereo",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "section[id^=\"shopify-section-template--\"] div#section-cart__content div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "cart-items[data-source] form#cart div#main-cart-items tr[id^=\"CartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-stereo/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/berlin-stereo/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:56:38.744Z"
+  },
+  {
+    "themeId": 154312999095,
+    "themeName": "Bespoke",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bespoke/presets/bespoke",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#content div[id^=\"shopify-section-template--\"] section[data-section-id] div[data-type] form[data-cart-form] div.cart-content div.content-details-sticky",
+        "cartDrawerSelector": "section[data-section-id] section#header-minicart-drawer div[data-type] div.header-minicart-footer-buttons"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-bespoke/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-bespoke/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T14:58:24.929Z"
+  },
+  {
+    "themeId": 154313064631,
+    "themeName": "Nature",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bespoke/presets/nature",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#content div[id^=\"shopify-section-template--\"] section[data-section-id] div[data-type] form[data-cart-form] div.cart-content div.content-details-sticky",
+        "cartDrawerSelector": "section[data-section-id] section#header-minicart-drawer div[data-type] div.header-minicart-footer-buttons"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-nature/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-nature/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:00:07.699Z"
+  },
+  {
+    "themeId": 154313162935,
+    "themeName": "Splendor",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bespoke/presets/splendor",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#content div[id^=\"shopify-section-template--\"] section[data-section-id] div[data-type] form[data-cart-form] div.cart-content div.content-details-sticky",
+        "cartDrawerSelector": "section[data-section-id] section#header-minicart-drawer div[data-type] div.header-minicart-footer-buttons"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-splendor/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-splendor/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:02:01.833Z"
+  },
+  {
+    "themeId": 154313228471,
+    "themeName": "Workshop",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bespoke/presets/workshop",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#content div[id^=\"shopify-section-template--\"] section[data-section-id] div[data-type] form[data-cart-form] div.cart-content div.content-details-sticky",
+        "cartDrawerSelector": "section[data-section-id] section#header-minicart-drawer div[data-type] div.header-minicart-footer-buttons"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-workshop/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bespoke-workshop/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:03:51.043Z"
+  },
+  {
+    "themeId": 154313261239,
+    "themeName": "Beyond",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/beyond/presets/beyond",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-button-transitions] main#main_content div[id^=\"shopify-section-template--\"] cart-element[data-section-id] div.cart--footer div.cart--summary",
+        "cartDrawerSelector": "div[data-view] cart-element[data-background-color] form[data-drawer-scroll-container] div.cart--summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beyond-beyond/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beyond-beyond/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:05:32.088Z"
+  },
+  {
+    "themeId": 154313294007,
+    "themeName": "Fleur",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/beyond/presets/fleur",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] cart-element[data-section-id] div[data-transition-item] div.cart--summary",
+        "cartDrawerSelector": "div[data-view] cart-element[data-background-color] form[data-drawer-scroll-container] div.cart--summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beyond-fleur/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/beyond-fleur/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:07:15.533Z"
+  },
+  {
+    "themeId": 154313359543,
+    "themeName": "Blockshop",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blockshop/presets/blockshop",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] cart-element[data-section-id] div[data-transition-item] div.cart--summary",
+        "cartDrawerSelector": "div[data-view] cart-element[data-background-color] form[data-drawer-scroll-container] div.cart--summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blockshop-blockshop/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blockshop-blockshop/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:09:08.187Z"
+  },
+  {
+    "themeId": 154313425079,
+    "themeName": "Radiance",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blockshop/presets/radiance",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] cart-element[data-section-id] div[data-transition-item] div.cart--summary",
+        "cartDrawerSelector": "div[data-view] cart-element[data-background-color] form[data-drawer-scroll-container] div.cart--summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blockshop-radiance/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blockshop-radiance/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:10:54.624Z"
+  },
+  {
+    "themeId": 154313490615,
+    "themeName": "Blum",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blum/presets/blum",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#mainCart form#cartForm div.js-cart-form-content-cart-total",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#mainCart form#cartForm div[data-section-id] div[id^=\"cartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-blum/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-blum/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:12:38.647Z"
+  },
+  {
+    "themeId": 154313588919,
+    "themeName": "Fuji",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blum/presets/fuji",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#mainCart form#cartForm div.js-cart-form-content-cart-total",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#mainCart form#cartForm div[data-section-id] div[id^=\"cartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-fuji/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-fuji/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:14:21.014Z"
+  },
+  {
+    "themeId": 154313654455,
+    "themeName": "Monti",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blum/presets/monti",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#mainCart form#cartForm div.js-cart-form-content-cart-total",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#mainCart form#cartForm div[data-section-id] div[id^=\"cartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-monti/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-monti/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:16:05.234Z"
+  },
+  {
+    "themeId": 154313719991,
+    "themeName": "Solie",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blum/presets/solie",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#mainCart form#cartForm div.js-cart-form-content-cart-total",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#mainCart form#cartForm div[data-section-id] div[id^=\"cartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-solie/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-solie/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:17:46.333Z"
+  },
+  {
+    "themeId": 154313785527,
+    "themeName": "Totem",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/blum/presets/totem",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#mainCart form#cartForm div.js-cart-form-content-cart-total",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#mainCart form#cartForm div[data-section-id] div[id^=\"cartItem-\"]",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-totem/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/blum-totem/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:19:53.793Z"
+  },
+  {
+    "themeId": 154313818295,
+    "themeName": "Blossom",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boost/presets/blossom",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-blossom/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-blossom/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:21:41.902Z"
+  },
+  {
+    "themeId": 154313883831,
+    "themeName": "Boost",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boost/presets/boost",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-boost/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-boost/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:23:35.379Z"
+  },
+  {
+    "themeId": 154313949367,
+    "themeName": "Flourish",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boost/presets/flourish",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-flourish/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-flourish/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:25:20.783Z"
+  },
+  {
+    "themeId": 154313982135,
+    "themeName": "Inspire",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boost/presets/inspire",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] form"
+      },
+      "productLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item",
+        "cartDrawerSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div[data-section-id] div.cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-inspire/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boost-inspire/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:27:07.668Z"
+  },
+  {
+    "themeId": 154314047671,
+    "themeName": "Borders",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/borders/presets/borders",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] sidebar-drawer#site-cart-sidebar div[data-drawer-actions] div.cart__details"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div[data-items] div[id^=\"item-\"] div.cart-form-item__price-title-variants",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-borders/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-borders/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:29:04.982Z"
+  },
+  {
+    "themeId": 154314113207,
+    "themeName": "Mosaic",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/borders/presets/mosaic",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] sidebar-drawer#site-cart-sidebar div[data-drawer-actions] div.cart__details"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div[data-items] div[id^=\"item-\"] div.cart-form-item__price-title-variants",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-mosaic/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-mosaic/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:31:26.245Z"
+  },
+  {
+    "themeId": 154314145975,
+    "themeName": "Objekts",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/borders/presets/objekts",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] sidebar-drawer#site-cart-sidebar div[data-drawer-actions] div.cart__details"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div[data-items] div[id^=\"item-\"] div.cart-form-item__price-title-variants",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-objekts/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-objekts/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:33:24.588Z"
+  },
+  {
+    "themeId": 154314178743,
+    "themeName": "Readers",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/borders/presets/readers",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#main div[id^=\"shopify-section-template--\"] div.cart-section div.cart__subtotal-widget",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] sidebar-drawer#site-cart-sidebar div[data-drawer-actions] div.cart__details"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div[data-items] div[id^=\"item-\"] div.cart-form-item__price-title-variants",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-readers/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/borders-readers/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:35:23.434Z"
+  },
+  {
+    "themeId": 154314244279,
+    "themeName": "Aurum",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boutique/presets/aurum",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-footer",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "section[data-section-id] form[id^=\"cart-template--\"] div[id^=\"CartItem-\"] div.cart-item__col--large",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-aurum/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-aurum/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:37:06.877Z"
+  },
+  {
+    "themeId": 154314309815,
+    "themeName": "Boutique",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boutique/presets/boutique",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-footer",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.js-cart-footer-button"
+      },
+      "productLevelGift": {
+        "cartSelector": "section[data-section-id] form[id^=\"cart-template--\"] div[id^=\"CartItem-\"] div.cart-item__col--large",
+        "cartDrawerSelector": "div[data-scrollable] form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item__col--large"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-boutique/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-boutique/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:38:50.253Z"
+  },
+  {
+    "themeId": 154314408119,
+    "themeName": "Jade",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boutique/presets/jade",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-footer",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "section[data-section-id] form[id^=\"cart-template--\"] div[id^=\"CartItem-\"] div.cart-item__col--large",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-jade/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-jade/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:40:31.944Z"
+  },
+  {
+    "themeId": 154314440887,
+    "themeName": "Reflections",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/boutique/presets/reflections",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] section[data-section-id] div.cart-footer",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] section#CartDrawer div[data-scrollable] div.js-cart-footer-button"
+      },
+      "productLevelGift": {
+        "cartSelector": "section[data-section-id] form[id^=\"cart-template--\"] div[id^=\"CartItem-\"] div.cart-item__col--large",
+        "cartDrawerSelector": "div[data-scrollable] form[id^=\"cart-sections--\"] div[id^=\"CartItem-\"] div.cart-item__col--large"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-reflections/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/boutique-reflections/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:42:37.330Z"
+  },
+  {
+    "themeId": 154314473655,
+    "themeName": "Brava",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/brava/presets/brava",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.cart-order-summary",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.cart-order-summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.d-xs-block",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-brava/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-brava/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:44:33.166Z"
+  },
+  {
+    "themeId": 154314506423,
+    "themeName": "Lyfted",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/brava/presets/lyfted",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.cart-order-summary",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.cart-order-summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.d-xs-block",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-lyfted/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-lyfted/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:46:33.784Z"
+  },
+  {
+    "themeId": 154314539191,
+    "themeName": "Rogue",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/brava/presets/rogue",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.cart-order-summary",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.cart-order-summary"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#page-cart-inner div#mini-cart fieldset#cart-fieldset div.d-xs-block",
+        "cartDrawerSelector": "div#mini-cart div#mini-cart fieldset#cart-fieldset div.d-xs-block"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-rogue/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/brava-rogue/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:48:15.471Z"
+  },
+  {
+    "themeId": 154314637495,
+    "themeName": "Airwave",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/broadcast/presets/airwave",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-section-id] form#cartForm div[data-checkout-buttons]",
+        "cartDrawerSelector": "div[data-checkout-buttons] div[data-animation] form#cartForm div.cart__foot__inner"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cartForm cart-items[data-items-holder] div[data-item] div.cart__item__content__left",
+        "cartDrawerSelector": "div[data-animation] cart-items[data-items-holder] div[data-item] div.cart__item__content__left"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-airwave/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-airwave/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:49:57.969Z"
+  },
+  {
+    "themeId": 154314768567,
+    "themeName": "Broadcast",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/broadcast/presets/broadcast",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-section-id] form#cartForm div[data-checkout-buttons]",
+        "cartDrawerSelector": "div[data-checkout-buttons] div[data-animation] form#cartForm div.cart__foot__inner"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cartForm cart-items[data-items-holder] div[data-item] div.cart__item__content__left",
+        "cartDrawerSelector": "div[data-animation] cart-items[data-items-holder] div[data-item] div.cart__item__content__left"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-broadcast/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-broadcast/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:51:40.805Z"
+  },
+  {
+    "themeId": 154314899639,
+    "themeName": "Motif",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/broadcast/presets/motif",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-checkout-buttons] div[data-animation] form#cartForm div.cart__foot__inner"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cartForm cart-items[data-items-holder] div[data-item] div.cart__item__content__left",
+        "cartDrawerSelector": "div[data-animation] cart-items[data-items-holder] div[data-item] div.cart__item__content__left"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-motif/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-motif/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:53:23.207Z"
+  },
+  {
+    "themeId": 154314932407,
+    "themeName": "Relay",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/broadcast/presets/relay",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-section-id] form#cartForm div[data-checkout-buttons]",
+        "cartDrawerSelector": "div[data-checkout-buttons] div[data-animation] form#cartForm div.cart__foot__inner"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cartForm cart-items[data-items-holder] div[data-item] div.cart__item__content__left",
+        "cartDrawerSelector": "div[data-animation] cart-items[data-items-holder] div[data-item] div.cart__item__content__left"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-relay/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-relay/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:55:06.914Z"
+  },
+  {
+    "themeId": 154314997943,
+    "themeName": "Stellar",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/broadcast/presets/stellar",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[data-checkout-buttons] div[data-animation] form#cartForm div.cart__foot__inner"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cartForm cart-items[data-items-holder] div[data-item] div.cart__item__content__left",
+        "cartDrawerSelector": "div[data-animation] cart-items[data-items-holder] div[data-item] div.cart__item__content__left"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-stellar/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/broadcast-stellar/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:56:48.553Z"
+  },
+  {
+    "themeId": 154315063479,
+    "themeName": "Aeris",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bullet/presets/aeris",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#mainContent div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] x-flex.gocheckout",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] x-flex.gocheckout"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item",
+        "cartDrawerSelector": "coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-aeris/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-aeris/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T15:58:30.346Z"
+  },
+  {
+    "themeId": 154315129015,
+    "themeName": "Bull",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bullet/presets/bull",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#mainContent div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] x-flex.gocheckout",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] x-flex.gocheckout"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item",
+        "cartDrawerSelector": "coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-bull/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-bull/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:00:11.836Z"
+  },
+  {
+    "themeId": 154315260087,
+    "themeName": "Bullet",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bullet/presets/bullet",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#mainContent div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] x-flex.gocheckout",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] x-flex.gocheckout"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item",
+        "cartDrawerSelector": "coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-bullet/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-bullet/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:01:57.239Z"
+  },
+  {
+    "themeId": 154315325623,
+    "themeName": "Etch",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bullet/presets/etch",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#mainContent div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] x-flex.gocheckout",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] x-flex.gocheckout"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item",
+        "cartDrawerSelector": "coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-etch/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-etch/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:03:40.714Z"
+  },
+  {
+    "themeId": 154315358391,
+    "themeName": "Nox",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/bullet/presets/nox",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#mainContent div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] x-flex.gocheckout",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] x-flex.gocheckout"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item",
+        "cartDrawerSelector": "coretex-dialog#cartBox coretex-cart[data-ajax-cart-section] cart-body[data-ajax-cart-section-scroll] cart-item"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-nox/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/bullet-nox/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:05:20.436Z"
+  },
+  {
+    "themeId": 154315391159,
+    "themeName": "Anthologist",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/california/presets/anthologist",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] form.ajaxcart div.more"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] div.items div[data-line]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-anthologist/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-anthologist/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:07:01.558Z"
+  },
+  {
+    "themeId": 154315456695,
+    "themeName": "California",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/california/presets/california",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] form.ajaxcart div.more"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] div.items div[data-line]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-california/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-california/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:08:42.775Z"
+  },
+  {
+    "themeId": 154315522231,
+    "themeName": "Lane",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/california/presets/lane",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] form.ajaxcart div.more"
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] div[data-section-id] div.items div[data-line]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-lane/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/california-lane/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:11:02.624Z"
+  },
+  {
+    "themeId": 154315686071,
+    "themeName": "Critter",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cama/presets/critter",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#Cart footer#CartFooter div.cart-actions",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer form[data-id] div.cart-actions"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#Cart div[data-content] tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form[data-id] div[data-content] tr[id^=\"CartItem-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cama-critter/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cama-critter/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:13:11.338Z"
+  },
+  {
+    "themeId": 154315784375,
+    "themeName": "Vanity",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cama/presets/vanity",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#Cart footer#CartFooter div.cart-actions",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer form[data-id] div.cart-actions"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#Cart div[data-content] tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form[data-id] div[data-content] tr[id^=\"CartItem-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cama-vanity/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cama-vanity/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:14:57.213Z"
+  },
+  {
+    "themeId": 154315817143,
+    "themeName": "Canopy",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/canopy/presets/canopy",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#main-content div[id^=\"shopify-section-template--\"] form#cart div#cart-summary",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer div.drawer__content div.cart-drawer--checkout--sticky-desktop-true"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart cart-items#cart-items tr[id^=\"cart-item-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#cart-drawer-form cart-items#cart-items tr[id^=\"cart-item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/canopy-canopy/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/canopy-canopy/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:16:36.402Z"
+  },
+  {
+    "themeId": 154315849911,
+    "themeName": "Cedar",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/canopy/presets/cedar",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#main-content div[id^=\"shopify-section-template--\"] form#cart div#cart-summary",
+        "cartDrawerSelector": "div[id^=\"shopify-section-sections--\"] cart-drawer#cart-drawer div.cart-drawer--checkout--sticky-desktop-true"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart cart-items#cart-items tr[id^=\"cart-item-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#cart-drawer-form cart-items#cart-items tr[id^=\"cart-item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/canopy-cedar/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/canopy-cedar/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:18:18.245Z"
+  },
+  {
+    "themeId": 154315915447,
+    "themeName": "Capital",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/capital/presets/capital",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] div.grid__item",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] footer.global-drawer__footer div.cart-drawer__sub-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] tr[data-animate]",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] form#CartDrawer-Form div.cart-drawer__product-card--info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-capital/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-capital/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:20:45.466Z"
+  },
+  {
+    "themeId": 154315980983,
+    "themeName": "Crunch",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/capital/presets/crunch",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] div.grid__item",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] footer.global-drawer__footer div.cart-drawer__sub-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] tr[data-animate]",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] form#CartDrawer-Form div.cart-drawer__product-card--info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-crunch/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-crunch/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:22:45.483Z"
+  },
+  {
+    "themeId": 154316079287,
+    "themeName": "Locket",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/capital/presets/locket",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] div.grid__item",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] footer.global-drawer__footer div.cart-drawer__sub-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] tr[data-animate]",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] form#CartDrawer-Form div.cart-drawer__product-card--info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-locket/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-locket/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:24:45.380Z"
+  },
+  {
+    "themeId": 154316144823,
+    "themeName": "Zing",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/capital/presets/zing",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] footer.global-drawer__footer div.cart-drawer__sub-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "div#MainContent div[id^=\"shopify-section-template--\"] form[data-wetheme-section-type] tr[data-animate]",
+        "cartDrawerSelector": "cart-drawer[data-drawer-position] div[data-cart-dynamic-content] form#CartDrawer-Form div.cart-drawer__product-card--info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-zing/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/capital-zing/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:26:46.574Z"
+  },
+  {
+    "themeId": 154316210359,
+    "themeName": "Carbon",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/carbon/presets/carbon",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart div#main-cart-items div.cart-summary-area",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartDrawer-Item-\"] div.cart-item__details-wrapper",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-wrapper"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/carbon-carbon/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/carbon-carbon/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:28:27.545Z"
+  },
+  {
+    "themeId": 154316275895,
+    "themeName": "Eternal",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/carbon/presets/eternal",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] form#cart div#main-cart-items div.cart-summary-area",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.drawer__inner div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items div[id^=\"CartDrawer-Item-\"] div.cart-item__details-wrapper",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item__details-wrapper"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/carbon-eternal/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/carbon-eternal/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:30:09.217Z"
+  },
+  {
+    "themeId": 154316374199,
+    "themeName": "Cascade",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cascade/presets/cascade",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-color-scheme] div[id^=\"shopify-section-template--\"] div[data-cart-footer] div.grid-cols-14",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-modal-label] div[data-cart-footer] div.grid-cols-14"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-cart-items] form#cart li[data-cart-item-key]",
+        "cartDrawerSelector": "div[data-modal-label] div[data-cart-items] form#cart li[data-cart-item-key]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-cascade/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-cascade/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:31:50.418Z"
+  },
+  {
+    "themeId": 154316406967,
+    "themeName": "Phase",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cascade/presets/phase",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-color-scheme] div[id^=\"shopify-section-template--\"] div[data-cart-footer] div.grid-cols-14",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-modal-label] div[data-cart-footer] div.grid-cols-14"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-cart-items] form#cart li[data-cart-item-key]",
+        "cartDrawerSelector": "div[data-modal-label] div[data-cart-items] form#cart li[data-cart-item-key]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-phase/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-phase/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:33:32.267Z"
+  },
+  {
+    "themeId": 154316472503,
+    "themeName": "Sequence",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cascade/presets/sequence",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-color-scheme] div[id^=\"shopify-section-template--\"] div[data-cart-footer] div.grid-cols-14",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-modal-label] div[data-cart-footer] div.grid-cols-14"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-cart-items] form#cart li[data-cart-item-key]",
+        "cartDrawerSelector": "div[data-modal-label] div[data-cart-items] form#cart li[data-cart-item-key]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-sequence/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-sequence/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:35:14.735Z"
+  },
+  {
+    "themeId": 154316505271,
+    "themeName": "Swell",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cascade/presets/swell",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[data-color-scheme] div[id^=\"shopify-section-template--\"] div[data-cart-footer] div.grid-cols-14",
+        "cartDrawerSelector": "div#right-drawer-slot div[data-modal-label] div[data-cart-footer] div.grid-cols-14"
+      },
+      "productLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div[data-cart-items] form#cart li[data-cart-item-key]",
+        "cartDrawerSelector": "div[data-modal-label] div[data-cart-items] form#cart li[data-cart-item-key]"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-swell/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cascade-swell/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:36:58.525Z"
+  },
+  {
+    "themeId": 154316538039,
+    "themeName": "Cello",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cello/presets/cello",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.global-settings-drawer div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-cello/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-cello/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:38:44.126Z"
+  },
+  {
+    "themeId": 154316603575,
+    "themeName": "Crescendo",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cello/presets/crescendo",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.global-settings-drawer div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-crescendo/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-crescendo/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:40:30.191Z"
+  },
+  {
+    "themeId": 154316701879,
+    "themeName": "Dazzle",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cello/presets/dazzle",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.global-settings-drawer div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-dazzle/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-dazzle/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:42:11.209Z"
+  },
+  {
+    "themeId": 154316800183,
+    "themeName": "Snitch",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cello/presets/snitch",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.global-settings-drawer div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-snitch/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-snitch/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:43:55.267Z"
+  },
+  {
+    "themeId": 154316832951,
+    "themeName": "Strings",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/cello/presets/strings",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": "cart-drawer.drawer div#CartDrawer div.global-settings-drawer div.drawer__footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-strings/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/cello-strings/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:45:37.989Z"
+  },
+  {
+    "themeId": 154316931255,
+    "themeName": "Charge",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/charge/presets/charge",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": ""
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-charge/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-charge/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:47:55.266Z"
+  },
+  {
+    "themeId": 154317029559,
+    "themeName": "Garage",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/charge/presets/garage",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-items div[id^=\"cart-sidebar-item-\"] div.cart-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-garage/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-garage/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:49:53.733Z"
+  },
+  {
+    "themeId": 154317127863,
+    "themeName": "Gorpcore",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/charge/presets/gorpcore",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-items div[id^=\"cart-sidebar-item-\"] div.cart-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-gorpcore/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-gorpcore/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:51:54.229Z"
+  },
+  {
+    "themeId": 154317193399,
+    "themeName": "Hero",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/charge/presets/hero",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-items div[id^=\"cart-sidebar-item-\"] div.cart-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-hero/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-hero/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:53:48.340Z"
+  },
+  {
+    "themeId": 154317258935,
+    "themeName": "Metalware",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/charge/presets/metalware",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent section[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__footer",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": "cart-sidebar#cart-sidebar div#cart-sidebar-items div[id^=\"cart-sidebar-item-\"] div.cart-item__info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-metalware/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/charge-metalware/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-05T16:55:44.046Z"
+  },
+  {
+    "themeId": 154446233783,
+    "themeName": "Apex",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/athens/presets/apex",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "main#MainContent div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart-blocks",
+        "cartDrawerSelector": "mini-cart[data-event-context] drawer-modal[data-event-prefix] div#header-mini-cart-footer div.mini-cart-footer"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item-details",
+        "cartDrawerSelector": "drawer-modal[data-event-prefix] div#header-mini-cart-content div[data-variant-id] div.mini-cart-item-info"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-apex/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/athens-apex/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-10T07:51:06.586Z"
+  },
+  {
+    "themeId": 154446364855,
+    "themeName": "Precious",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/adorn/presets/precious",
+    "previewUrl": "https://giftyautomation.myshopify.com/",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-section div#cart-footer-section div.cart__blocks",
+        "cartDrawerSelector": "div#shopify-section-cart-drawer div#CartDrawer div.drawer__inner div.drawer__bottom"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div#main-cart-items tr[id^=\"CartItem-\"] div.cart_items__details",
+        "cartDrawerSelector": "form#CartDrawer-Form div#CartDrawer-CartItems tr[id^=\"CartDrawer-Item-\"] td.cart-item__details"
+      }
+    },
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-precious/cart-page.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/adorn-precious/cart-drawer.png"
+    },
+    "capturedAt": "2026-09-10T07:54:12.901Z"
+  }
+]

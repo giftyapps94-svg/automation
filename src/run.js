@@ -1,0 +1,247 @@
+#!/usr/bin/env node
+/**
+ * Main pipeline.
+ *
+ *   npm run start -- --limit 5
+ *   npm run start -- --source store --limit 10     # browse theme store, newest first
+ *   npm run start -- --only abode                  # filter the JSON list by handle/name
+ *   npm run start -- --skip-install                # theme already installed, go straight to preview
+ *   npm run start -- --publish-theme               # also publish each theme (changes the live store)
+ *   npm run start -- --keep-theme                  # do NOT delete the theme afterwards
+ *
+ * Per theme:
+ *   install -> find in admin -> preview -> add 2 products -> run selector
+ *   algorithm on cart page + cart drawer -> inject markers -> snapshot ->
+ *   append record to theme-selectors.json -> (hook) publish to Google Docs ->
+ *   delete the installed theme from the admin.
+ *
+ * The delete step runs even when the capture fails, so the store does not fill
+ * up with test themes. It is skipped for --skip-install (we did not install it),
+ * --publish-theme (it is now live) and --keep-theme, and never touches the
+ * published theme.
+ */
+import { existsSync } from 'node:fs';
+import { config, parseArgs } from './config.js';
+import { launchContext, saveAuthState } from './browser.js';
+import { log } from './util.js';
+import { loadThemesFromFile, loadThemesFromStore, installTheme } from './themeStore.js';
+import {
+  openThemesPage,
+  previewTheme,
+  publishTheme,
+  deleteTheme,
+  waitForThemeInLibrary,
+} from './adminThemes.js';
+import {
+  openPreviewPage,
+  addProductToCart,
+  clearCart,
+  openCartDrawer,
+  openCartPage,
+  runSelectorAlgorithm,
+} from './cart.js';
+import { injectMarkers } from './injector.js';
+import { captureSnapshot, publishToGoogleDocs } from './snapshots.js';
+import { appendRecord, existingThemeUrls } from './store.js';
+
+const args = parseArgs();
+
+async function main() {
+  if (!existsSync(config.userDataDir) && !existsSync(config.authState)) {
+    throw new Error(`No saved session at ${config.userDataDir}. Run \`npm run login\` first.`);
+  }
+
+  // Same persistent profile as `npm run login`, so the session carries over.
+  const context = await launchContext({
+    headless: !config.headed,
+    slowMo: config.headed ? 60 : 0,
+  });
+
+  try {
+    const themes = await selectThemes(context);
+    log(`Processing ${themes.length} theme(s).`);
+
+    for (const [i, theme] of themes.entries()) {
+      log(`\n=== [${i + 1}/${themes.length}] ${theme.name} ===`);
+      try {
+        await processTheme(context, theme);
+      } catch (err) {
+        log(`  !! failed: ${err.message}`);
+      }
+    }
+  } finally {
+    // Write back the cookies Shopify rotated during the run; without this the
+    // saved session goes stale and the next run asks for credentials again.
+    await saveAuthState(context).catch(() => {});
+    await context.close().catch(() => {});
+  }
+}
+
+async function selectThemes(context) {
+  const limit = Number(args.limit || 0);
+  let themes =
+    args.source === 'store'
+      ? await loadThemesFromStore(context, { limit: limit || 10 })
+      : await loadThemesFromFile();
+
+  if (args.only) {
+    const needle = String(args.only).toLowerCase();
+    themes = themes.filter(
+      (t) => t.handle?.includes(needle) || t.name?.toLowerCase().includes(needle),
+    );
+  }
+
+  console.log(args)
+  if (!args.redo) {
+    const done = await existingThemeUrls();
+    const before = themes.length;
+    themes = themes.filter((t) => !done.has(t.url));
+    if (before !== themes.length) log(`Skipping ${before - themes.length} theme(s) already captured.`);
+  }
+
+  return limit ? themes.slice(0, limit) : themes;
+}
+
+async function processTheme(context, theme) {
+  // Why we must not delete the theme afterwards (null = delete it). Skipped when
+  // we did not install it (--skip-install), when we just published it, or on
+  // --keep-theme.
+  const skipReason = args['keep-theme']
+    ? '--keep-theme'
+    : args['skip-install']
+      ? '--skip-install (theme was not installed by this run)'
+      : args['publish-theme']
+        ? '--publish-theme (theme is now live)'
+        : null;
+
+  // --- 1. install ---------------------------------------------------------
+  let meta = { name: theme.name, price: 'unknown', priceLabel: null, installed: false };
+  if (!args['skip-install']) {
+    meta = await installTheme(context, theme);
+  }
+
+  // --- 2. locate in admin + open preview ----------------------------------
+  const adminPage = await openThemesPage(context);
+  // Retry rather than one-shot: on --skip-install runs, and whenever the admin
+  // list is still catching up, the row can take a few seconds to appear.
+  const { themeId: foundId } = await waitForThemeInLibrary(adminPage, meta.name || theme.name);
+  let preview;
+  try {
+    preview = await previewTheme(context, adminPage, {
+      themeName: meta.name || theme.name,
+      themeId: foundId,
+    });
+  } catch (err) {
+    // Preview failed: remove the theme we just installed so it does not linger.
+    if (!skipReason) {
+      await deleteTheme(adminPage, {
+        themeId: foundId,
+        themeName: meta.name || theme.name,
+      }).catch((e) => log(`  ! delete failed: ${e.message}`));
+    }
+    await adminPage.close().catch(() => {});
+    throw err;
+  }
+  const { themeId, previewUrl } = preview;
+
+  if (args['publish-theme']) {
+    await publishTheme(adminPage, { themeId, themeName: meta.name || theme.name });
+  }
+
+  try {
+    await captureTheme(context, theme, meta, { themeId, previewUrl });
+  } finally {
+    // --- 7. clean up: remove the theme we installed ------------------------
+    // Runs even when the capture failed, so a broken theme does not stay in
+    // the library. Skipped when we did not install it (--skip-install), when
+    // we just published it, or on --keep-theme.
+    if (skipReason) {
+      log(`  keeping theme — ${skipReason}`);
+    } else {
+      await deleteTheme(adminPage, {
+        themeId,
+        themeName: meta.name || theme.name,
+      }).catch((err) => log(`  ! delete failed: ${err.message}`));
+    }
+    await adminPage.close().catch(() => {});
+  }
+}
+
+async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
+  // --- 3. fill the cart in preview mode -----------------------------------
+  const page = await openPreviewPage(context, themeId);
+  let drawer;
+  let drawerShot;
+  let cart;
+  let cartShot;
+  let drawerRoot;
+  try {
+    // Reset the shared store cart before adding anything: the browser profile
+    // is persistent, so without this, items left over from an earlier theme
+    // make `addProductToCart` think this theme's products are already there
+    // and skip the click entirely — losing the add-to-cart event some themes
+    // rely on to auto-open the drawer, and stacking quantities run over run.
+    await clearCart(page);
+    for (const productPath of config.productPaths) {
+      await addProductToCart(page, productPath, themeId);
+    }
+
+    // --- 4. cart drawer: algorithm -> inject -> snapshot ------------------
+    drawerRoot = await openCartDrawer(page);
+    drawer = await runSelectorAlgorithm(page, { context: 'drawer', rootSelector: drawerRoot });
+    await injectMarkers(page, [
+      { key: 'orderLevelGift', selector: drawer.orderLevelGift },
+      { key: 'productLevelGift', selector: drawer.productLevelGift },
+    ]);
+    drawerShot = await captureSnapshot(page, {
+      themeName: theme.name,
+      themeId,
+      label: 'cart-drawer',
+      rootSelector: drawerRoot,
+    });
+
+    // --- 5. cart page: algorithm -> inject -> snapshot --------------------
+    await openCartPage(page, themeId);
+    cart = await runSelectorAlgorithm(page, { context: 'cart', rootSelector: null });
+    await injectMarkers(page, [
+      { key: 'orderLevelGift', selector: cart.orderLevelGift },
+      { key: 'productLevelGift', selector: cart.productLevelGift },
+    ]);
+    cartShot = await captureSnapshot(page, { themeName: theme.name, themeId, label: 'cart-page' });
+  } finally {
+    // Close the preview tab even on failure, so a long run does not
+    // accumulate a tab per broken theme.
+    await page.close().catch(() => {});
+  }
+
+  // --- 6. persist + publish ----------------------------------------------
+  const record = {
+    themeId: themeId ? Number(themeId) || themeId : null,
+    themeName: meta.name || theme.name,
+    price: meta.price,
+    url: theme.url,
+    previewUrl,
+    selectors: {
+      orderLevelGift: {
+        cartSelector: cart.orderLevelGift || '',
+        cartDrawerSelector: drawer.orderLevelGift || '',
+      },
+      productLevelGift: {
+        cartSelector: cart.productLevelGift || '',
+        cartDrawerSelector: drawer.productLevelGift || '',
+      },
+    },
+    snapshots: { cartPage: cartShot, cartDrawer: drawerShot },
+    capturedAt: new Date().toISOString(),
+  };
+
+  const docUrl = await publishToGoogleDocs(record);
+  if (docUrl) record.googleDocUrl = docUrl;
+
+  await appendRecord(record);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

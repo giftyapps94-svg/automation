@@ -1,0 +1,17 @@
+{
+  "name": "gifty-theme-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Playwright automation: install Shopify themes, preview them, discover gift-injection selectors, snapshot cart + cart drawer.",
+  "scripts": {
+    "login": "node src/login.js",
+    "start": "node src/run.js",
+    "run:one": "node src/run.js --limit 1",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.47.0"
+  }
+}
