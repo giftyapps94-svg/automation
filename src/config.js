@@ -13,6 +13,15 @@ export const config = {
   store,
   storeUrl: (process.env.STORE_URL || `https://${store}.myshopify.com`).replace(/\/$/, ''),
   adminUrl: (process.env.ADMIN_URL || `https://admin.shopify.com/store/${store}`).replace(/\/$/, ''),
+  // Optional Admin API token (custom app, read_themes + write_themes). When set,
+  // themes are deleted via the API instead of the admin UI.
+  adminToken: process.env.SHOPIFY_ADMIN_TOKEN || '',
+  // Dev Dashboard app credentials, exchanged for a 24h token when no static token is set.
+  adminClientId: process.env.SHOPIFY_CLIENT_ID || '',
+  adminClientSecret: process.env.SHOPIFY_CLIENT_SECRET || '',
+  // Theme Access password (shptka_...) used by the Shopify CLI to delete themes.
+  themeAccessPassword: process.env.SHOPIFY_THEME_ACCESS_PASSWORD || '',
+  shopifyCliBin: process.env.SHOPIFY_CLI_BIN || 'shopify',
   themeStoreUrl: 'https://themes.shopify.com',
 
   productPaths: (process.env.PRODUCT_PATHS ||
@@ -20,6 +29,9 @@ export const config = {
     .split(',')
     .map((s) => s.trim())
     .filter(Boolean),
+
+  // Product added as the gift line alongside each primary product, then removed.
+  giftProductHandle: process.env.GIFT_PRODUCT_HANDLE || 'the-collection-snowboard-oxygen',
 
   authState: abs(process.env.AUTH_STATE || './auth.json'),
   // On-disk Chrome profile shared by `npm run login` and `npm run start`. This

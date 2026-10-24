@@ -23,7 +23,7 @@
 import { existsSync } from 'node:fs';
 import { config, parseArgs } from './config.js';
 import { launchContext, saveAuthState } from './browser.js';
-import { log } from './util.js';
+import { log, settle, sleep, withPreview } from './util.js';
 import { loadThemesFromFile, loadThemesFromStore, installTheme } from './themeStore.js';
 import {
   openThemesPage,
@@ -38,13 +38,16 @@ import {
   clearCart,
   openCartDrawer,
   openCartPage,
+  dismissPopups,
   runSelectorAlgorithm,
 } from './cart.js';
+import { apiConfigured, deleteThemeViaApi, deleteThemeViaCli } from './adminApi.js';
 import { injectMarkers } from './injector.js';
 import { captureSnapshot, publishToGoogleDocs } from './snapshots.js';
 import { appendRecord, existingThemeUrls } from './store.js';
 
 const args = parseArgs();
+const MOBILE_VIEWPORT = { width: 390, height: 844 };
 
 async function main() {
   if (!existsSync(config.userDataDir) && !existsSync(config.authState)) {
@@ -102,6 +105,24 @@ async function selectThemes(context) {
   return limit ? themes.slice(0, limit) : themes;
 }
 
+/** Delete via the Shopify CLI (Theme Access password), then the Admin API, then the admin UI. */
+async function removeTheme(adminPage, { themeId, themeName }) {
+  log(`removeTheme called`);
+  if (config.themeAccessPassword && themeId && (await deleteThemeViaCli({ themeId, themeName }))) {
+    log(`removeTheme called via api 1`);
+    return true;
+  }
+  if (apiConfigured() && themeId) {
+    try {
+      log(`removeTheme called via api 2`);
+      return await deleteThemeViaApi({ themeId, themeName });
+    } catch (err) {
+      log(`  ! API delete failed (${err.message}), falling back to UI`);
+    }
+  }
+  return deleteTheme(adminPage, { themeId, themeName });
+}
+
 async function processTheme(context, theme) {
   // Why we must not delete the theme afterwards (null = delete it). Skipped when
   // we did not install it (--skip-install), when we just published it, or on
@@ -134,7 +155,7 @@ async function processTheme(context, theme) {
   } catch (err) {
     // Preview failed: remove the theme we just installed so it does not linger.
     if (!skipReason) {
-      await deleteTheme(adminPage, {
+      await removeTheme(adminPage, {
         themeId: foundId,
         themeName: meta.name || theme.name,
       }).catch((e) => log(`  ! delete failed: ${e.message}`));
@@ -158,7 +179,7 @@ async function processTheme(context, theme) {
     if (skipReason) {
       log(`  keeping theme — ${skipReason}`);
     } else {
-      await deleteTheme(adminPage, {
+      await removeTheme(adminPage, {
         themeId,
         themeName: meta.name || theme.name,
       }).catch((err) => log(`  ! delete failed: ${err.message}`));
@@ -174,7 +195,11 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
   let drawerShot;
   let cart;
   let cartShot;
+  let drawerMobileShot = null;
+  let cartMobileShot = null;
   let drawerRoot;
+  // What /cart.js reported for the gift properties after each add-to-cart.
+  const giftProperties = [];
   try {
     // Reset the shared store cart before adding anything: the browser profile
     // is persistent, so without this, items left over from an earlier theme
@@ -183,7 +208,9 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
     // rely on to auto-open the drawer, and stacking quantities run over run.
     await clearCart(page);
     for (const productPath of config.productPaths) {
-      await addProductToCart(page, productPath, themeId);
+      const { giftCheck } = await addProductToCart(page, productPath, themeId);
+      sleep(12000);
+      if (giftCheck) giftProperties.push(giftCheck);
     }
 
     // --- 4. cart drawer: algorithm -> inject -> snapshot ------------------
@@ -196,7 +223,7 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
     drawerShot = await captureSnapshot(page, {
       themeName: theme.name,
       themeId,
-      label: 'cart-drawer',
+      label: 'cart-drawer-desktop',
       rootSelector: drawerRoot,
     });
 
@@ -207,7 +234,43 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
       { key: 'orderLevelGift', selector: cart.orderLevelGift },
       { key: 'productLevelGift', selector: cart.productLevelGift },
     ]);
-    cartShot = await captureSnapshot(page, { themeName: theme.name, themeId, label: 'cart-page' });
+    cartShot = await captureSnapshot(page, {
+      themeName: theme.name,
+      themeId,
+      label: 'cart-page-desktop',
+    });
+
+    // --- 5b. same two views at mobile width, reusing the desktop selectors --
+    await page.setViewportSize(MOBILE_VIEWPORT);
+    try {
+      await page.goto(withPreview(`${config.storeUrl}/`, themeId), { waitUntil: 'domcontentloaded' });
+      await settle(page);
+      await dismissPopups(page);
+      const mobileDrawerRoot = await openCartDrawer(page);
+      await injectMarkers(page, [
+        { key: 'orderLevelGift', selector: drawer.orderLevelGift },
+        { key: 'productLevelGift', selector: drawer.productLevelGift },
+      ]);
+      drawerMobileShot = await captureSnapshot(page, {
+        themeName: theme.name,
+        themeId,
+        label: 'cart-drawer-mobile',
+        rootSelector: mobileDrawerRoot,
+      });
+
+      await openCartPage(page, themeId);
+      await injectMarkers(page, [
+        { key: 'orderLevelGift', selector: cart.orderLevelGift },
+        { key: 'productLevelGift', selector: cart.productLevelGift },
+      ]);
+      cartMobileShot = await captureSnapshot(page, {
+        themeName: theme.name,
+        themeId,
+        label: 'cart-page-mobile',
+      });
+    } catch (err) {
+      log(`  ! mobile snapshots failed: ${err.message}`);
+    }
   } finally {
     // Close the preview tab even on failure, so a long run does not
     // accumulate a tab per broken theme.
@@ -231,7 +294,13 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
         cartDrawerSelector: drawer.productLevelGift || '',
       },
     },
-    snapshots: { cartPage: cartShot, cartDrawer: drawerShot },
+    giftProperties,
+    snapshots: {
+      cartPage: cartShot,
+      cartDrawer: drawerShot,
+      cartPageMobile: cartMobileShot,
+      cartDrawerMobile: drawerMobileShot,
+    },
     capturedAt: new Date().toISOString(),
   };
 

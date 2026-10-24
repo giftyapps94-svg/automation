@@ -109,7 +109,6 @@ export async function installTheme(context, theme) {
     );
     if (!clicked) return { ...meta, installed: false };
 
-    console.log('shr clicker', clicked);
     // No confirmation step: Shopify adds the theme on its own, so just wait.
     const installed = await waitForInstall(page, meta.name || theme.name);
     return { ...meta, installed };

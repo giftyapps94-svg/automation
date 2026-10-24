@@ -8,6 +8,7 @@
     "login": "node src/login.js",
     "start": "node src/run.js",
     "run:one": "node src/run.js --limit 1",
+    "run:dawn": "node src/run.js --only dawn --limit 1 --redo",
     "postinstall": "playwright install chromium"
   },
   "dependencies": {

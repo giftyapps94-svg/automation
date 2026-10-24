@@ -53,9 +53,9 @@ export async function clickFirst(scope, candidates, { timeout = 8000, label = ''
     if (label) log(`  ! could not find: ${label}`);
     return false;
   }
-  console.log('shr el', el);
   await el.scrollIntoViewIfNeeded().catch(() => {});
   await el.click({ timeout: 10000 });
+  log('clicked', el,label);
   return true;
 }
 
