@@ -5050,5 +5050,105 @@
       "cartDrawerMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-drawer-mobile.png"
     },
     "capturedAt": "2026-10-18T12:23:07.504Z"
+  },
+  {
+    "themeId": 198922436791,
+    "themeName": "Dawn",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/dawn/presets/dawn",
+    "previewUrl": "https://giftyautomation.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaUpuYVdaMGVXRjFkRzl0WVhScGIyNHViWGx6YUc5d2FXWjVMbU52YlFZNkJrVlUiLCJleHAiOiIyMDI2LTEwLTI0VDEzOjUxOjA3LjE4N1oiLCJwdXIiOiJwZXJtYW5lbnRfcGFzc3dvcmRfYnlwYXNzIn19--b74272e8e07e25b5d038d06ae0470c08c216ccd4&_fd=0&_sc=1&key=50259a8cb402b46fa64574a2e95962ff92e8e6798e67dd28f36c6d955ed8da51&preview_theme_id=198922436791",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": ""
+      }
+    },
+    "giftPropertiesAdded": true,
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-page-desktop.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-drawer-desktop.png",
+      "cartPageMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-page-mobile.png",
+      "cartDrawerMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-drawer-mobile.png"
+    },
+    "capturedAt": "2026-10-24T12:53:06.804Z"
+  },
+  {
+    "themeId": 198923255991,
+    "themeName": "Brana",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/agile/presets/brana",
+    "previewUrl": "https://giftyautomation.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaUpuYVdaMGVXRjFkRzl0WVhScGIyNHViWGx6YUc5d2FXWjVMbU52YlFZNkJrVlUiLCJleHAiOiIyMDI2LTEwLTI0VDEzOjM5OjM0LjE0M1oiLCJwdXIiOiJwZXJtYW5lbnRfcGFzc3dvcmRfYnlwYXNzIn19--605622bb983b36b2617d27a202f46ffa018b51f8&_fd=0&_sc=1&key=50259a8cb402b46fa64574a2e95962ff92e8e6798e67dd28f36c6d955ed8da51&preview_theme_id=198923255991",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-items div.rounded-\\(--rounded-radius\\)",
+        "cartDrawerSelector": "section#shopify-section-cart-drawer div#CartDrawer button#CartDrawer-Checkout"
+      },
+      "productLevelGift": {
+        "cartSelector": "form#cart div[id^=\"CartItem-\"] div.cart-item-info",
+        "cartDrawerSelector": "div#CartDrawer-CartItems div[id^=\"CartDrawer-Item-\"] div.cart-item-info"
+      }
+    },
+    "giftPropertiesAdded": true,
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-brana/cart-page-desktop.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-brana/cart-drawer-desktop.png",
+      "cartPageMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-brana/cart-page-mobile.png",
+      "cartDrawerMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/agile-brana/cart-drawer-mobile.png"
+    },
+    "capturedAt": "2026-10-24T12:41:07.463Z"
+  },
+  {
+    "themeId": 198923452599,
+    "themeName": "Aisle",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/aisle/presets/aisle",
+    "previewUrl": "https://giftyautomation.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaUpuYVdaMGVXRjFkRzl0WVhScGIyNHViWGx6YUc5d2FXWjVMbU52YlFZNkJrVlUiLCJleHAiOiIyMDI2LTEwLTI0VDEzOjQyOjI2LjQxOVoiLCJwdXIiOiJwZXJtYW5lbnRfcGFzc3dvcmRfYnlwYXNzIn19--017c5eacafcd30b94d6744ca28a5b642b12e096e&_fd=0&_sc=1&key=50259a8cb402b46fa64574a2e95962ff92e8e6798e67dd28f36c6d955ed8da51&preview_theme_id=198923452599",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "",
+        "cartDrawerSelector": ""
+      }
+    },
+    "giftPropertiesAdded": true,
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-page-desktop.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-drawer-desktop.png",
+      "cartPageMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-page-mobile.png",
+      "cartDrawerMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/aisle-aisle/cart-drawer-mobile.png"
+    },
+    "capturedAt": "2026-10-24T12:44:20.468Z"
+  },
+  {
+    "themeId": 198943604919,
+    "themeName": "Dawn",
+    "price": "paid",
+    "url": "https://themes.shopify.com/themes/dawn/presets/dawn",
+    "previewUrl": "https://giftyautomation.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaUpuYVdaMGVXRjFkRzl0WVhScGIyNHViWGx6YUc5d2FXWjVMbU52YlFZNkJrVlUiLCJleHAiOiIyMDI2LTEwLTI1VDA1OjUyOjQyLjg0M1oiLCJwdXIiOiJwZXJtYW5lbnRfcGFzc3dvcmRfYnlwYXNzIn19--606ae517c18636159ab340d78faf5bc178fc13bb&_fd=0&_sc=1&key=50259a8cb402b46fa64574a2e95962ff92e8e6798e67dd28f36c6d955ed8da51&preview_theme_id=198943604919",
+    "selectors": {
+      "orderLevelGift": {
+        "cartSelector": "div[id^=\"shopify-section-template--\"] div#main-cart-footer div.cart__blocks",
+        "cartDrawerSelector": ""
+      },
+      "productLevelGift": {
+        "cartSelector": "div#main-cart-items tr[id^=\"CartItem-\"] td.cart-item__details",
+        "cartDrawerSelector": ""
+      }
+    },
+    "giftPropertiesAdded": true,
+    "snapshots": {
+      "cartPage": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-page-desktop.png",
+      "cartDrawer": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-drawer-desktop.png",
+      "cartPageMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-page-mobile.png",
+      "cartDrawerMobile": "/home/shreesha/Documents/CustomWork/Gifty-automation-repo/snapshots/dawn-dawn/cart-drawer-mobile.png"
+    },
+    "capturedAt": "2026-10-25T04:54:41.038Z"
   }
 ]

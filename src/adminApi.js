@@ -2,6 +2,9 @@
 import { config } from './config.js';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { existsSync, readdirSync } from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import { log } from './util.js';
 
 const run = promisify(execFile);
@@ -77,6 +80,23 @@ export async function deleteThemeViaApi({ themeId, themeName }) {
  * the environment so it does not show up in the process list. Needs a CLI that
  * runs on the current Node (recent CLI versions require Node 22+).
  */
+/**
+ * Directory of a Node >= 22 install to put first on the CLI's PATH when this
+ * process runs on an older Node (the CLI crashes on Node 20). Override with
+ * SHOPIFY_CLI_NODE_BIN; otherwise the newest nvm install is used.
+ */
+function cliNodeBinDir() {
+  if (Number(process.versions.node.split('.')[0]) >= 22) return null;
+  if (config.shopifyCliNodeBin) return config.shopifyCliNodeBin;
+  const root = path.join(process.env.NVM_DIR || path.join(os.homedir(), '.nvm'), 'versions', 'node');
+  if (!existsSync(root)) return null;
+  const newest = readdirSync(root)
+    .map((v) => ({ v, major: Number(v.replace(/^v/, '').split('.')[0]), full: v.replace(/^v/, '').split('.').map(Number) }))
+    .filter((x) => x.major >= 22)
+    .sort((a, b) => b.full[0] - a.full[0] || b.full[1] - a.full[1] || b.full[2] - a.full[2])[0];
+  return newest ? path.join(root, newest.v, 'bin') : null;
+}
+
 export async function deleteThemeViaCli({ themeId, themeName }) {
   const label = themeName || themeId;
   try {
@@ -84,7 +104,7 @@ export async function deleteThemeViaCli({ themeId, themeName }) {
       config.shopifyCliBin,
       ['theme', 'delete', '--theme', String(themeId), '--store', `${config.store}.myshopify.com`, '--force'],
       {
-        env: { ...process.env, SHOPIFY_CLI_THEME_TOKEN: config.themeAccessPassword, SHOPIFY_FLAG_FORCE: '1' },
+        env: { ...process.env, PATH: [cliNodeBinDir(), process.env.PATH].filter(Boolean).join(path.delimiter), SHOPIFY_CLI_THEME_TOKEN: config.themeAccessPassword, SHOPIFY_FLAG_FORCE: '1' },
         timeout: 120_000,
       },
     );

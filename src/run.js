@@ -198,8 +198,8 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
   let drawerMobileShot = null;
   let cartMobileShot = null;
   let drawerRoot;
-  // What /cart.js reported for the gift properties after each add-to-cart.
-  const giftProperties = [];
+  // Whether the gift properties landed on the first product's cart line.
+  let giftPropertiesAdded = false;
   try {
     // Reset the shared store cart before adding anything: the browser profile
     // is persistent, so without this, items left over from an earlier theme
@@ -207,10 +207,10 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
     // and skip the click entirely — losing the add-to-cart event some themes
     // rely on to auto-open the drawer, and stacking quantities run over run.
     await clearCart(page);
-    for (const productPath of config.productPaths) {
-      const { giftCheck } = await addProductToCart(page, productPath, themeId);
-      sleep(12000);
-      if (giftCheck) giftProperties.push(giftCheck);
+    // Gift properties go on the first product only.
+    for (const [i, productPath] of config.productPaths.entries()) {
+      const res = await addProductToCart(page, productPath, themeId, { withGift: i === 0 });
+      if (i === 0) giftPropertiesAdded = Boolean(res.giftPropertiesAdded);
     }
 
     // --- 4. cart drawer: algorithm -> inject -> snapshot ------------------
@@ -294,7 +294,7 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
         cartDrawerSelector: drawer.productLevelGift || '',
       },
     },
-    giftProperties,
+    giftPropertiesAdded,
     snapshots: {
       cartPage: cartShot,
       cartDrawer: drawerShot,

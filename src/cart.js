@@ -52,8 +52,10 @@ export async function dismissPopups(page) {
 /**
  * Add one product to the cart. Tries the real add-to-cart button first, then
  * falls back to the Ajax cart API so a stubborn theme can't stall the run.
+ * With `withGift`, the gift properties are attached to this product only and
+ * the result says whether they landed (`giftPropertiesAdded`).
  */
-export async function addProductToCart(page, productPath, themeId) {
+export async function addProductToCart(page, productPath, themeId, { withGift = false } = {}) {
   const url = withPreview(`${config.storeUrl}${productPath}`, themeId);
   const handle = productHandle(productPath);
 
@@ -62,7 +64,7 @@ export async function addProductToCart(page, productPath, themeId) {
   // selector algorithm checks against.
   if (await cartHasProduct(page, handle)) {
     log(`  already in cart, skipping: ${productPath}`);
-    return { added: true, giftCheck: null };
+    return { added: true, giftPropertiesAdded: null };
   }
 
   log(`  add to cart: ${productPath}`);
@@ -70,12 +72,13 @@ export async function addProductToCart(page, productPath, themeId) {
   await settle(page);
   await dismissPopups(page);
 
-  log('  attachGiftProperties called');
-  await attachGiftProperties(page);
+  if (withGift) await attachGiftProperties(page, handle);
 
   const clicked = await clickFirst(
     page,
     [
+      'form[data-gift-target] button[type="submit"]:not([disabled])',
+      'form[data-gift-target] [name="add"]:not([disabled])',
       'form[action*="/cart/add"] button[type="submit"]:not([disabled])',
       'form[action*="/cart/add"] [name="add"]:not([disabled])',
       { role: 'button', name: /^add to cart$/i },
@@ -91,13 +94,18 @@ export async function addProductToCart(page, productPath, themeId) {
     // Check for THIS product, not just a non-empty cart — otherwise a leftover
     // line from an earlier product reports success for one that never landed.
     if (await cartHasProduct(page, handle)) {
-      return { added: true, giftCheck: await verifyGiftProperties(page, handle) };
+      return {
+        added: true,
+        giftPropertiesAdded: withGift ? await verifyGiftProperties(page, handle) : null,
+      };
     }
   }
 
   log('    falling back to /cart/add.js');
   const ok = await page.evaluate(async () => {
-    const input = document.querySelector('form[action*="/cart/add"] [name="id"]');
+    const input =
+      document.querySelector('form[data-gift-target] [name="id"]') ||
+      document.querySelector('form[action*="/cart/add"] [name="id"]');
     const id = input?.value;
     if (!id) return false;
     const res = await fetch('/cart/add.js', {
@@ -108,7 +116,7 @@ export async function addProductToCart(page, productPath, themeId) {
     return res.ok;
   });
   if (!ok) log(`    ! could not add ${productPath}`);
-  return { added: ok, giftCheck: null };
+  return { added: ok, giftPropertiesAdded: withGift ? false : null };
 }
 
 const GIFT_LINE_INDEX = 1;
@@ -117,11 +125,38 @@ const GIFT_LINE_INDEX = 1;
  * Append hidden gift inputs (dummy values) to the product's add-to-cart form,
  * so they are submitted along with the add-to-cart click.
  */
-async function attachGiftProperties(page) {
+async function attachGiftProperties(page, handle) {
   const attached = await page
-    .evaluate(async ({ idx, giftHandle }) => {
-      const form = document.querySelector('form[action*="/cart/add"]');
+    .evaluate(async ({ idx, giftHandle, productHandle }) => {
+      // A page can hold several /cart/add forms (related products, quick add,
+      // sticky bar, cart drawer). Pick the one for THIS product: its variant id
+      // must belong to the product, then it must be rendered, then prefer a form
+      // outside those widgets.
+      const productRes = await fetch(`/products/${productHandle}.js`, { headers: { Accept: 'application/json' } });
+      const variantIds = new Set(
+        productRes.ok ? ((await productRes.json()).variants || []).map((v) => String(v.id)) : [],
+      );
+      const WIDGETS = 'header, cart-drawer, [id*="CartDrawer" i], [class*="recommend" i], [class*="related" i], [class*="quick" i]';
+      const isRendered = (f) => {
+        const r = f.getBoundingClientRect();
+        return r.width > 0 && r.height > 0 && getComputedStyle(f).visibility !== 'hidden';
+      };
+      const scoreOf = (f) =>
+        (variantIds.has(String(f.querySelector('[name="id"]')?.value)) ? 8 : 0) +
+        (isRendered(f) ? 4 : 0) +
+        (f.closest(WIDGETS) ? 0 : 1);
+      let form = null;
+      let best = -1;
+      for (const f of document.querySelectorAll('form[action*="/cart/add"]')) {
+        const sc = scoreOf(f);
+        if (sc > best) {
+          best = sc;
+          form = f;
+        }
+      }
       if (!form) return false;
+      document.querySelectorAll('[data-gift-target]').forEach((el) => delete el.dataset.giftTarget);
+      form.dataset.giftTarget = '';
       const uniqueId = 'dummy-linked-id-123';
       const primaryVariantId = form.querySelector('[name="id"]')?.value || '1111111111';
       // The gift line is a real product, so look up its variant id.
@@ -159,7 +194,7 @@ async function attachGiftProperties(page) {
       // log(`Shr All items added`)
       console.log(document.querySelector('form[action*="/cart/add"]'));
       return true;
-    }, { idx: GIFT_LINE_INDEX, giftHandle: config.giftProductHandle })
+    }, { idx: GIFT_LINE_INDEX, giftHandle: config.giftProductHandle, productHandle: handle })
     .catch((err) => {
       log(`    ! attachGiftProperties evaluate failed: ${err.message}`);
       return false;
@@ -239,38 +274,21 @@ async function verifyGiftProperties(page, handle) {
     });
 
   if (!result) {
-    log('    ! could not read /cart.js to verify gift properties', result);
-    return null;
+    log('    ! could not read /cart.js to verify gift properties');
+    return false;
   }
-  log('result',result)
-  log(`    cart items (${result.cartItems.length}):`);
-  for (const i of result.cartItems) {
-    log(`      - ${i.handle} x${i.quantity} (variant ${i.variant_id})`);
-  }
+  const added = result.missing.length === 0 && result.giftFound > 0;
   log(
-    result.missing.length
-      ? `    ! gift properties missing on cart line: ${result.missing.join(', ')}`
-      : '    gift properties present on cart line',
+    added
+      ? '    gift properties added: yes'
+      : `    gift properties added: no (missing on cart line: ${result.missing.join(', ') || 'none'}; gift lines found: ${result.giftFound})`,
   );
-  if (result.giftFound) {
-    log(
-      result.giftRemaining
-        ? `    ! gift line found but could not be removed (${result.giftRemaining} left)`
-        : `    gift line found in cart and removed (${result.giftFound})`,
-    );
-  } else {
-    log('    no gift line in cart');
+  // A leftover gift line would skew the selector algorithm's item counts, so
+  // stop the run for this theme if it could not be removed.
+  if (result.giftRemaining) {
+    throw new Error(`gift product ${config.giftProductHandle} could not be removed from the cart`);
   }
-  // The gift line must be gone before anything else runs; otherwise it would
-  // skew the selector algorithm's item counts, so stop the run for this theme.
-  if (!result.giftFound || result.giftRemaining) {
-    throw new Error(
-      result.giftFound
-        ? `gift product ${config.giftProductHandle} could not be removed from the cart`
-        : `gift product ${config.giftProductHandle} was not added to the cart, nothing to delete`,
-    );
-  }
-  return result;
+  return added;
 }
 
 /**

@@ -21,6 +21,8 @@ export const config = {
   adminClientSecret: process.env.SHOPIFY_CLIENT_SECRET || '',
   // Theme Access password (shptka_...) used by the Shopify CLI to delete themes.
   themeAccessPassword: process.env.SHOPIFY_THEME_ACCESS_PASSWORD || '',
+  // Directory of a Node >= 22 to run the CLI with when this process is on an older Node.
+  shopifyCliNodeBin: process.env.SHOPIFY_CLI_NODE_BIN || '',
   shopifyCliBin: process.env.SHOPIFY_CLI_BIN || 'shopify',
   themeStoreUrl: 'https://themes.shopify.com',
 

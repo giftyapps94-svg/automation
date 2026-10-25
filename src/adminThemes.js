@@ -372,13 +372,30 @@ export async function deleteTheme(page, { themeId, themeName }) {
   const opened = await clickFirst(row, MENU_BUTTON, { timeout: 6000, label: '⋯ menu (delete)' });
   if (!opened) return false;
 
-  // <button aria-label="Delete"> inside this card's popover.
-  const chose = await clickFirst(
-    row,
-    ['button[aria-label="Delete"]', { role: 'button', name: /^\s*delete\s*$/i }],
-    { timeout: 6000, label: 'Delete' },
-  );
-  if (!chose) return false;
+  // <button aria-label="Delete"> inside this card's popover. The preview step
+  // may have left this menu open, in which case the click above closed it, so
+  // reopen it once and retry.
+  const DELETE_BUTTON = ['button[aria-label="Delete"]', { role: 'button', name: /^\s*delete\s*$/i }];
+  let chose = await clickFirst(row, DELETE_BUTTON, { timeout: 3000, label: 'Delete' }).catch(() => false);
+  if (!chose) {
+    await clickFirst(row, MENU_BUTTON, { timeout: 6000, label: '⋯ menu (retry)' }).catch(() => false);
+    chose = await clickFirst(
+      row,
+      DELETE_BUTTON,
+      { timeout: 6000, label: 'Delete' },
+    );
+  }
+  if (!chose) {
+    const items = await row
+      .locator('button, [role="menuitem"], a')
+      .evaluateAll((els) =>
+        els.map((e) => `${(e.innerText || e.getAttribute('aria-label') || '').trim()}`.slice(0, 40)).filter(Boolean),
+      )
+      .catch(() => []);
+    log(`  row controls after opening menu: ${JSON.stringify(items)}`);
+    await dumpDialog(page);
+    return false;
+  }
 
   const confirmed = await confirmDelete(page, themeName, scope === page ? null : scope);
   if (!confirmed) {
