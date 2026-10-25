@@ -44,6 +44,8 @@ export const config = {
   browserChannel: process.env.BROWSER_CHANNEL ?? 'chrome',
   themesFile: abs(process.env.THEMES_FILE || './shopify_themes.json'),
   outputFile: abs(process.env.OUTPUT_FILE || './theme-selectors.json'),
+  // Known-good selectors per theme; matching themes skip the selector algorithm.
+  preselectedFile: abs(process.env.PRESELECTED_FILE || './preselected.json'),
   snapshotDir: abs(process.env.SNAPSHOT_DIR || './snapshots'),
 
   headed: process.env.HEADED !== '0',

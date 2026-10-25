@@ -41,10 +41,10 @@ import {
   dismissPopups,
   runSelectorAlgorithm,
 } from './cart.js';
-import { apiConfigured, deleteThemeViaApi, deleteThemeViaCli } from './adminApi.js';
+import { apiConfigured, deleteThemeViaCli, getThemeRole } from './adminApi.js';
 import { injectMarkers } from './injector.js';
 import { captureSnapshot, publishToGoogleDocs } from './snapshots.js';
-import { appendRecord, existingThemeUrls } from './store.js';
+import { appendRecord, existingThemeUrls, findPreselected } from './store.js';
 
 const args = parseArgs();
 const MOBILE_VIEWPORT = { width: 390, height: 844 };
@@ -105,20 +105,17 @@ async function selectThemes(context) {
   return limit ? themes.slice(0, limit) : themes;
 }
 
-/** Delete via the Shopify CLI (Theme Access password), then the Admin API, then the admin UI. */
+/**
+ * Delete via the Shopify CLI (Theme Access password), then the admin UI. The CLI
+ * only sees live/unpublished themes, so trial themes fall through to the UI. The
+ * Admin API's themeDelete is not used: it needs a Shopify exemption.
+ */
 async function removeTheme(adminPage, { themeId, themeName }) {
-  log(`removeTheme called`);
-  if (config.themeAccessPassword && themeId && (await deleteThemeViaCli({ themeId, themeName }))) {
-    log(`removeTheme called via api 1`);
+  // Trial themes (role DEMO) are invisible to the CLI, so go straight to the UI.
+  const isTrial = apiConfigured() && themeId && (await getThemeRole(themeId)) === 'DEMO';
+  if (isTrial) log(`  "${themeName}" is a trial theme — the CLI cannot delete it, using the admin UI`);
+  else if (config.themeAccessPassword && themeId && (await deleteThemeViaCli({ themeId, themeName }))) {
     return true;
-  }
-  if (apiConfigured() && themeId) {
-    try {
-      log(`removeTheme called via api 2`);
-      return await deleteThemeViaApi({ themeId, themeName });
-    } catch (err) {
-      log(`  ! API delete failed (${err.message}), falling back to UI`);
-    }
   }
   return deleteTheme(adminPage, { themeId, themeName });
 }
@@ -198,6 +195,9 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
   let drawerMobileShot = null;
   let cartMobileShot = null;
   let drawerRoot;
+  // Known selectors from preselected.json: skip the algorithm for this theme.
+  const preselected = await findPreselected(theme);
+  if (preselected) log('  using preselected selectors (selector algorithm skipped)');
   // Whether the gift properties landed on the first product's cart line.
   let giftPropertiesAdded = false;
   try {
@@ -215,7 +215,12 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
 
     // --- 4. cart drawer: algorithm -> inject -> snapshot ------------------
     drawerRoot = await openCartDrawer(page);
-    drawer = await runSelectorAlgorithm(page, { context: 'drawer', rootSelector: drawerRoot });
+    drawer = preselected
+      ? {
+          orderLevelGift: preselected.orderLevelGift.cartDrawerSelector,
+          productLevelGift: preselected.productLevelGift.cartDrawerSelector,
+        }
+      : await runSelectorAlgorithm(page, { context: 'drawer', rootSelector: drawerRoot });
     await injectMarkers(page, [
       { key: 'orderLevelGift', selector: drawer.orderLevelGift },
       { key: 'productLevelGift', selector: drawer.productLevelGift },
@@ -229,7 +234,12 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
 
     // --- 5. cart page: algorithm -> inject -> snapshot --------------------
     await openCartPage(page, themeId);
-    cart = await runSelectorAlgorithm(page, { context: 'cart', rootSelector: null });
+    cart = preselected
+      ? {
+          orderLevelGift: preselected.orderLevelGift.cartSelector,
+          productLevelGift: preselected.productLevelGift.cartSelector,
+        }
+      : await runSelectorAlgorithm(page, { context: 'cart', rootSelector: null });
     await injectMarkers(page, [
       { key: 'orderLevelGift', selector: cart.orderLevelGift },
       { key: 'productLevelGift', selector: cart.productLevelGift },
@@ -294,6 +304,7 @@ async function captureTheme(context, theme, meta, { themeId, previewUrl }) {
         cartDrawerSelector: drawer.productLevelGift || '',
       },
     },
+    selectorSource: preselected ? 'preselected' : 'algorithm',
     giftPropertiesAdded,
     snapshots: {
       cartPage: cartShot,

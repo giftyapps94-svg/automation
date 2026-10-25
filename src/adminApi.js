@@ -115,3 +115,15 @@ export async function deleteThemeViaCli({ themeId, themeName }) {
     return false;
   }
 }
+
+/** Role of a theme (MAIN, UNPUBLISHED, DEMO for trials, ...), or null if unknown. */
+export async function getThemeRole(themeId) {
+  try {
+    const { theme } = await gql('query($id: ID!) { theme(id: $id) { role } }', {
+      id: `gid://shopify/OnlineStoreTheme/${themeId}`,
+    });
+    return theme?.role ?? null;
+  } catch {
+    return null;
+  }
+}
